@@ -31,3 +31,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 Run `ng deploy --base-href=http://aidencullo.com/angular-website` to
 deploy current build on website. Note this url corresponds to a
 specific domain
+
+## Resources
+
+following [this tutorial](https://www.youtube.com/watch?v=G0bBLvWXBvc&ab_channel=Fireship) 
