@@ -1,3 +1,9 @@
+<h1> {{ title }} </h1>
+
 <button [disabled]="clicked" (click)="handleClick()">
   click me
 </button>
+
+<div *ngIf="clicked">
+  here
+</div>
