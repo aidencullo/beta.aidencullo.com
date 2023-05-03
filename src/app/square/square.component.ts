@@ -7,8 +7,7 @@ import { Component, Input } from '@angular/core';
 {{ value }}
 </button>
 `,
-    styles: [
-    ]
+    styles: []
 })
 export class SquareComponent {
 
