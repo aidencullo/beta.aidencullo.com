@@ -4,7 +4,7 @@ import { VERSION } from '@angular/compiler';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
 
@@ -12,12 +12,18 @@ export class HomeComponent {
     title = `Angular ${ VERSION.full} is rad!`;
 
     // boat data
-    boat = {
+    boats = [
+	{
 	name: 'Starfire',
 	year: 1977,
 	img: 'assets/boat.jpg'
-    };
-
+	},
+	{
+	name: 'Oracle',
+	year: 2015,
+	img: 'assets/boat2.jpg'
+	}
+    ];
     
     handleClick() {
 	console.log("click handled!")
