@@ -8,27 +8,7 @@ import { of } from 'rxjs';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-
-    clicked = false;
-    title = `Angular ${ VERSION.full} is rad!`;
-
-    // boat data
-    boats = of([
-	{
-	name: 'Starfire',
-	year: 1977,
-	img: 'assets/boat.jpg'
-	},
-	{
-	name: 'Oracle',
-	year: 2015,
-	img: 'assets/boat2.jpg'
-	}
-    ]);
-    
-    handleClick() {
-	console.log("click handled!")
-	this.clicked = true;
-    }
-    
+    title = "Aiden's new website";
+    quote = "\"If debugging is the process of removing software bugs, then programming must be the process of putting them in.\"";
+    author = "Edsger W. Dijkstra";
 }

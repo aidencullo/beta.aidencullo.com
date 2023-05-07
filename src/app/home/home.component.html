@@ -1,25 +1,22 @@
-<h1> {{ title }} </h1>
 
-<button [disabled]="clicked" (click)="handleClick()">
-  click me
-</button>
+<div 
+  [ngClass] = "'content'"
+  >
 
-<div *ngFor="let boat of boats | async">
+  <h1>
+  {{ title }}
+  </h1>
 
-  <h3 [ngClass] = "{
-		   'green': boat.name === 'Starfire',
-		   'red': boat.name === 'Oracle'
-		   }">
 
-    {{ boat.name }}
-
+  <h3>
+  {{ quote }}
   </h3>
 
-
-
-
+  <h3
+  [ngClass] = "'author'"
+    >
+  {{ author }}
+  </h3>
 
   
-  <img [src]="boat.img" appMagnifier>
-  <p>Built in {{ boat.year | year }} </p>
 </div>
