@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { MagnifierDirective } from './magnifier.directive';
 import { YearPipe } from './year.pipe';
+import { ButtonComponent } from './button/button.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { YearPipe } from './year.pipe';
     HomeComponent,
     MagnifierDirective,
     YearPipe,
+    ButtonComponent,
   ],
   imports: [
     BrowserModule,
