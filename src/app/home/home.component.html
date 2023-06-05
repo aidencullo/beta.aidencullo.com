@@ -1,7 +1,14 @@
 <div class="content-wrapper">
-  <div>
-    <p>Title</p>
-    <p>Description</p>
-    <p>Personal Links</p>
+  <div class="content">
+    <div class="title">{{ title }}</div>
+    <div class="sub-title">{{ subTitle }}</div>
+    <div class="description"> {{ description }}</div>
+    <ul class="personal-links">
+      <li class="personal-link" *ngFor="let personal of personals">      
+        <a [href]="personal.link">
+          {{ personal.name }} 
+        </a>
+      </li>      
+    </ul>
   </div>
 </div>
