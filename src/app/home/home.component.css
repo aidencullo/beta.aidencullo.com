@@ -17,11 +17,6 @@
     @apply text-6xl py-8 flex justify-center;
 }
 
-.sub-title {    
-    /* text */
-    @apply text-2xl py-8 flex justify-center;
-}
-
 .description {    
     /* text */
     @apply text-lg py-8 mx-24 text-center; 
@@ -34,5 +29,5 @@
 
 .personal-link {    
     /* text */
-    @apply p-4 text-lime-500 cursor-pointer hover:bg-red-500;
+    @apply p-4 cursor-pointer hover:bg-red-500 rounded-lg animate-pulse;
 }

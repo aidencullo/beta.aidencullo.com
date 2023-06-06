@@ -7,9 +7,8 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
-    title = "aiden·cullo";
-    subTitle = "programmer & traveler";
-    description = "I’m a software engineer based out of NYC. I have professional webdev experience in React, Vue, and Node. I am interested in using technology to remedy social issues such as housing, immigration, and education.";
+    title = "Welcome!";
+    description = "My name is Aiden. I'm a software engineer based out of NYC. I have professional webdev experience in React, Vue, and Node. I am interested in using technology to remedy social issues such as housing, immigration, and education.";
     personals = [
         {
             name: "github",
