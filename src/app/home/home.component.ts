@@ -21,6 +21,10 @@ export class HomeComponent {
         {
             name: "linkedin",
             link: "https://www.linkedin.com/in/aiden-cullo-93ba02a4",
-        }
+        },
+        {
+            name: "resume",
+            link: "/assets/resume.pdf",
+        },
     ];
 }
