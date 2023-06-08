@@ -9,7 +9,7 @@
     /* spacing */
     @apply p-20;
     /* text */
-    @apply text-red-200 font-mono;
+    @apply text-white font-mono;
 }
 
 .title {    

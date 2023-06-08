@@ -4,8 +4,8 @@
     <div class="description"> {{ description }}</div>
     <ul class="personal-links">
       <li class="personal-link" *ngFor="let personal of personals">      
-        <a [href]="personal.link">
-          {{ personal.name }} 
+        <a [title]="title" [href]="personal.link">
+          <fa-icon [icon] = "personal.icon"> </fa-icon>
         </a>
       </li>      
     </ul>
