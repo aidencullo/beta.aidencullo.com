@@ -29,5 +29,10 @@
 
 .personal-link {    
     /* text */
-    @apply p-4 cursor-pointer hover:bg-red-500 rounded-lg animate-pulse;
+    @apply p-4 cursor-pointer hover:bg-red-500 rounded-lg;
+}
+
+.icon {    
+    /* text */
+    @apply h-96;
 }
