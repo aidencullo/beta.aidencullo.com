@@ -19,4 +19,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           branch: gh-pages
-          FOLDER: dist/new_website
+          folder: dist/new_website
