@@ -1,6 +1,6 @@
 {
-  "name": "new-website",
-  "version": "0.0.0",
+  "name": "angular_website",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "dev": "ng serve --open",
