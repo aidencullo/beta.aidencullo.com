@@ -7,16 +7,23 @@ jobs:
   build-and-deploy:
     runs-on: macos-latest
     steps:
+      - name: Node Version
+        run: node --version
+
+      - name: NPM Version
+        run: npm --version
+        
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Install and Build
-        run: |
-          npm ci
-          npm run build
-          
-      - name: Deploy 
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          branch: gh-pages
-          folder: dist/angular_website
+      - name: Install
+        run: npm i
+
+      - name: Build
+        run: npm run build
+        
+      # - name: Deploy 
+      #   uses: JamesIves/github-pages-deploy-action@releases/v3
+      #   with:
+      #     branch: gh-pages
+      #     folder: dist/angular_website

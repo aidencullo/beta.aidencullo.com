@@ -1,5 +1,5 @@
 {
-  "name": "angular_website",
+  "name": "angular-website",
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",
@@ -8,7 +8,6 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^16.0.0",
     "@angular/common": "^16.0.0",
