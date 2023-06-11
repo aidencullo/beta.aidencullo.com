@@ -10,18 +10,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Set up PNPM
-        uses: pnpm/action-setup@v2
-        with:
-          version: 8.3.1
-
-      - name: Install dependencies
-        run: pnpm i
-
-      - name: Build
-        run: pnpm build
-
+      - name: Install and Build
+        run: |
+          npm ci
+          npm run build
+          
       - name: Deploy 
         uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:  
+        with:
+          branch: gh-pages
           FOLDER: dist/new_website
