@@ -34,7 +34,7 @@ export class HomeComponent {
         },
         {
             name: "resume",
-            link: "angular-website/assets/resume.pdf",
+            link: "./assets/resume.pdf",
             icon: faFile,
         },
     ];
