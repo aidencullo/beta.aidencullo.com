@@ -2,6 +2,7 @@ name: CI / CD for Angular
 on:
   push:
     branches: [ "main" ]
+
 permissions:
   contents: write
   
