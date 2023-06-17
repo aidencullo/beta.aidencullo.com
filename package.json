@@ -5,7 +5,7 @@
     "ng": "ng",
     "dev": "ng serve --open",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development",
+      "build:prod": "ng build --base-href /angular-website/",
     "test": "ng test"
   },
   "dependencies": {
