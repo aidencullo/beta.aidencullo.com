@@ -2,16 +2,14 @@ name: CI / CD for Angular
 on:
   push:
     branches: [ "main" ]
-
+permissions:
+  contents: write
+  
 jobs:
   build-and-deploy:
+    concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
     runs-on: macos-latest
     steps:
-      - name: Node Version
-        run: node --version
-
-      - name: NPM Version
-        run: npm --version
         
       - name: Checkout
         uses: actions/checkout@v3
@@ -19,12 +17,12 @@ jobs:
       - name: Install
         run: npm i
 
-      - name: Build
-        run: npm run build
+      - name: Build for deploy
+        run: npm run deploy
 
-      - name: Deploy 
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: dist/angular-website
-          token: ${{ secrets.ACCESS_TOKEN }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
