@@ -6,33 +6,39 @@
 }
 
 .content {
-    /* spacing */
-    @apply p-20;
     /* text */
     @apply text-white font-mono;
+    /* background */
+    @apply bg-black;
+    /* dimensions */
+    @apply w-3/4 h-3/4;
+    /* positioning */
+    @apply flex flex-col justify-center items-center;
+    /* spacing */
+    @apply p-6;
 }
 
 .title {    
     /* text */
-    @apply text-6xl py-8 flex justify-center;
+    @apply text-3xl md:text-6xl p-6;
 }
 
-.description {    
+.description {
     /* text */
-    @apply text-lg py-8 mx-24 text-center; 
+    @apply text-sm md:text-lg py-8 text-center;
 }
 
-.personal-links {    
+.personal-links {
     /* layout */
     @apply flex justify-center py-8;
 }
 
-.personal-link {    
+.personal-link {
     /* text */
     @apply p-4 cursor-pointer hover:bg-red-500 rounded-lg;
 }
 
-.icon {    
+.icon {
     /* text */
     @apply h-96;
 }

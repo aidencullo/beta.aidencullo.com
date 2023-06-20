@@ -3,11 +3,11 @@
     <div class="title">{{ title }}</div>
     <div class="description"> {{ description }}</div>
     <ul class="personal-links">
-      <li class="personal-link" *ngFor="let personal of personals">      
+      <li class="personal-link" *ngFor="let personal of personals">
         <a [attr.title]="title" [href]="personal.link">
           <fa-icon [icon] = "personal.icon" class="fa-2xl"> </fa-icon>
         </a>
-      </li>      
+      </li>
     </ul>
-  </div>  
+  </div>
 </div>
