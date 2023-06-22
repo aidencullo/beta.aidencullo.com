@@ -1,13 +1,19 @@
 <div class="content-wrapper">
   <div class="content">
-    <div class="title">{{ title }}</div>
-    <div class="description"> {{ description }}</div>
-    <ul class="personal-links">
-      <li class="personal-link" *ngFor="let personal of personals">
-        <a [attr.title]="title" [href]="personal.link">
-          <fa-icon [icon] = "personal.icon" class="fa-2xl"> </fa-icon>
-        </a>
-      </li>
-    </ul>
+
+    <div class="content-block">
+      <marquee>
+        <h1 class="title">{{ title }}</h1>
+      </marquee>
+      <div class="description"> {{ description }}</div>
+      <ul class="personal-links">
+        <li class="personal-link" *ngFor="let personal of personals">
+          <a [attr.title]="title" [href]="personal.link">
+            <fa-icon [icon] = "personal.icon" class="fa-2xl"> </fa-icon>
+          </a>
+        </li>
+      </ul>
+    </div>
+    
   </div>
 </div>

@@ -15,7 +15,7 @@ export class HomeComponent {
     faStackOverflow = faStackOverflow;
 
     title = "Welcome!";
-    description = "My name is Aiden. I'm a software engineer based out of NYC. I have professional webdev experience in React, Vue, and Node. I am interested in using technology to remedy social issues such as housing, immigration, and education.";
+    description = "My name is Aiden. I'm a software engineer based out of Buenos Aires, AR. I have professional expreience in Fronted/Backend development, specializing in Vue, React, and Node.";
     personals = [
         {
             name: "github",
