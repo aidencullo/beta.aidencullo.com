@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { ContentBlockComponent } from '../content-block/content-block.component';
+import { TitleComponent } from '../title/title.component';
+import { DescriptionComponent } from '../description/description.component';
 import { faGithub, faLinkedin, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
 import { faFile } from '@fortawesome/free-regular-svg-icons';
 
@@ -7,6 +10,7 @@ import { faFile } from '@fortawesome/free-regular-svg-icons';
     templateUrl: './home.component.html',
     styleUrls: ['./home.component.css']
 })
+
 export class HomeComponent {
 
     faGithub = faGithub;
@@ -38,4 +42,5 @@ export class HomeComponent {
             icon: faFile,
         },
     ];
+
 }

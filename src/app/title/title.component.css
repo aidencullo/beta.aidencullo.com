@@ -1,0 +1,4 @@
+.title {    
+    /* text */
+    @apply text-3xl md:text-6xl py-4;
+}

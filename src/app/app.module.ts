@@ -5,11 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ContentBlockComponent } from './content-block/content-block.component';
+import { TitleComponent } from './title/title.component';
+import { DescriptionComponent } from './description/description.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+      ContentBlockComponent,
+    TitleComponent,
+    DescriptionComponent
   ],
   imports: [
     BrowserModule,

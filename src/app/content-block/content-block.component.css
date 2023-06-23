@@ -1,0 +1,35 @@
+.content-block {
+    /* background */
+    @apply bg-black;
+    /* training */
+    @apply border-2;
+    /* spacing */
+    @apply my-6 md:my-24 p-6;
+}
+
+.title {    
+    /* text */
+    @apply text-3xl md:text-6xl py-4;
+}
+
+.description {
+    /* text */
+    @apply text-sm md:text-lg text-center;
+    /* spacing */
+    @apply py-2;
+}
+
+.personal-links {
+    /* layout */
+    @apply flex justify-center py-8;
+}
+
+.personal-link {
+    /* text */
+    @apply p-4 cursor-pointer hover:bg-red-500 rounded-lg;
+}
+
+.icon {
+    /* text */
+    @apply h-96;
+}
