@@ -20,7 +20,7 @@ export class HomeComponent {
 
     title = "Welcome!";
     description = "My name is Aiden. I'm a software engineer based out of Buenos Aires, AR. I have professional expreience in Fronted/Backend development, specializing in Vue, React, and Node.";
-    personals = [
+    links = [
         {
             name: "github",
             link: "https://github.com/aidencullo",

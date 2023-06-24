@@ -8,6 +8,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ContentBlockComponent } from './content-block/content-block.component';
 import { TitleComponent } from './title/title.component';
 import { DescriptionComponent } from './description/description.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DescriptionComponent } from './description/description.component';
     HomeComponent,
       ContentBlockComponent,
     TitleComponent,
-    DescriptionComponent
+    DescriptionComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

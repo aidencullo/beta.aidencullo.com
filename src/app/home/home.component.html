@@ -7,8 +7,14 @@
       <app-description>
         {{ description }}
       </app-description>
+
+      <app-navbar [links]="links">
+        test
+      </app-navbar>
+
+      
       <ul class="personal-links">
-        <li class="personal-link" *ngFor="let personal of personals">
+        <li class="personal-link" *ngFor="let personal of links">
           <a [attr.title]="title" [href]="personal.link">
             <fa-icon [icon] = "personal.icon" class="fa-2xl"> </fa-icon>
           </a>
