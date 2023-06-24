@@ -1,0 +1,14 @@
+.personal-links {
+    /* layout */
+    @apply flex justify-center py-8;
+}
+
+.personal-link {
+    /* text */
+    @apply p-4 cursor-pointer hover:bg-red-500 rounded-lg;
+}
+
+.icon {
+    /* text */
+    @apply h-96;
+}

@@ -11,7 +11,7 @@
     /* dimensions */
     @apply w-3/4;
     /* spacing */
-    @apply my-6 md:my-24 p-6;
+    @apply my-6 p-6;
     /* border */
-    @apply border-2 border-dashed border-purple-500;
+    /* @apply border-2 border-dashed border-purple-500; */
 }

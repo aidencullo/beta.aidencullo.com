@@ -9,6 +9,8 @@ import { ContentBlockComponent } from './content-block/content-block.component';
 import { TitleComponent } from './title/title.component';
 import { DescriptionComponent } from './description/description.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ToolbarComponent } from './toolbar/toolbar.component';
+import { ResourcesComponent } from './resources/resources.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { NavbarComponent } from './navbar/navbar.component';
       ContentBlockComponent,
     TitleComponent,
     DescriptionComponent,
-    NavbarComponent
+    NavbarComponent,
+    ToolbarComponent,
+    ResourcesComponent
   ],
   imports: [
     BrowserModule,

@@ -4,20 +4,5 @@
     /* training */
     @apply border-2;
     /* spacing */
-    @apply my-6 md:my-24 p-6;
-}
-
-.personal-links {
-    /* layout */
-    @apply flex justify-center py-8;
-}
-
-.personal-link {
-    /* text */
-    @apply p-4 cursor-pointer hover:bg-red-500 rounded-lg;
-}
-
-.icon {
-    /* text */
-    @apply h-96;
+    @apply my-6 md:my-24 p-10;
 }
