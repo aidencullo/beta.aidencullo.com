@@ -1,20 +1,9 @@
-<div class="content-wrapper">
-  <div class="content">
-    <app-toolbar></app-toolbar>
-    <a [routerLink]="['/resources']">
-      res
-    </a>
-
-    <app-content-block>
-      <app-title>
-        {{ title }}
-      </app-title>
-      <app-description>
-        {{ description }}
-      </app-description>
-      <app-navbar [links]="links">
-        test
-      </app-navbar>
-    </app-content-block>
-  </div>
-</div>
+<app-content-block>
+  <app-title>
+    {{ title }}
+  </app-title>
+  <app-description>
+    {{ description }}
+  </app-description>
+  <app-navbar [links]="links"></app-navbar>
+</app-content-block>

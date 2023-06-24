@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class ToolbarComponent {
 
+    routes = [
+        {
+            link: '/',
+            name: 'home',
+        },
+        {
+            link: '/resources',
+            name: 'resources',
+        },
+    ];
+    
 }

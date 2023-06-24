@@ -1,0 +1,17 @@
+.content-wrapper {
+    /* position */
+    @apply flex justify-center items-center;
+    /* dimensions */
+    @apply h-full;
+}
+
+.content {
+    /* text */
+    @apply text-white font-mono;
+    /* dimensions */
+    @apply w-3/4;
+    /* spacing */
+    @apply my-6 p-6;
+    /* border */
+    /* @apply border-2 border-dashed border-purple-500; */
+}

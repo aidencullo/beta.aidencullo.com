@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class ResourcesComponent {
 
+    title = "My Resources";
+    description = "This is a collection of resources I've found useful in my own endeavors";
+    
 }

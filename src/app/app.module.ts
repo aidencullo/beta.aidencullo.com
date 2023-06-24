@@ -21,7 +21,7 @@ import { ResourcesComponent } from './resources/resources.component';
     DescriptionComponent,
     NavbarComponent,
     ToolbarComponent,
-    ResourcesComponent
+    ResourcesComponent,
   ],
   imports: [
     BrowserModule,
