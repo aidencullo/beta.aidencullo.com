@@ -1,7 +1,11 @@
-<ul>
-  <li *ngFor="let route of routes">
-    <a [routerLink]="route.link">
-      {{ route.name }}
-    </a>
-  </li>
-</ul>
+<div class="toolbar-wrapper">
+  <ul class="toolbar">
+    <li  *ngFor="let route of routes">
+      <a [routerLink]="route.link">
+        <button class="toolbar-item">
+          {{ route.name }}
+        </button>
+      </a>
+    </li>
+  </ul>
+</div>
