@@ -4,7 +4,7 @@
 }
 .toolbar-item {
     /* background */
-    @apply hover:bg-white;
+    @apply bg-[var(--primary-color)] hover:bg-white;
     /* typography */
     @apply font-bold hover:text-black;
     /* spacing */
