@@ -5,7 +5,7 @@
 
 .personal-link {
     /* text */
-    @apply p-4 cursor-pointer hover:bg-[var(--quarternary-color)] rounded-lg;
+    @apply p-4 cursor-pointer hover:bg-[var(--primary-color)] hover:text-[color:var(--tertiary-color)] rounded-lg;
 }
 
 .icon {

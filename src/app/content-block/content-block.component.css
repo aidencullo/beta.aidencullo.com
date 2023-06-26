@@ -1,8 +1,6 @@
 .content-block {
     /* background */
     @apply bg-[var(--tertiary-color)];
-    /* training */
-    @apply border-2;
     /* spacing */
     @apply my-6 md:my-24 p-10;
 }

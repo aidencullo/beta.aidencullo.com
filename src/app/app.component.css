@@ -8,6 +8,8 @@
 }
 
 .content {
+    /* text */
+    @apply text-[color:var(--primary-color)];
     /* dimensions */
     @apply w-3/4;
     /* spacing */
