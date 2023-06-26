@@ -8,8 +8,6 @@
 }
 
 .content {
-    /* text */
-    @apply text-white;
     /* dimensions */
     @apply w-3/4;
     /* spacing */

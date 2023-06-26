@@ -1,6 +1,6 @@
 .content-block {
     /* background */
-    @apply bg-[#C4A53E];
+    @apply bg-[var(--tertiary-color)];
     /* training */
     @apply border-2;
     /* spacing */
