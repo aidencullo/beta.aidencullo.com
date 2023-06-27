@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ContentBlockComponent } from '../content-block/content-block.component';
+import { ContentComponent } from '../content/content.component';
 import { TitleComponent } from '../title/title.component';
 import { DescriptionComponent } from '../description/description.component';
 import { faGithub, faLinkedin, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
@@ -19,7 +19,7 @@ export class HomeComponent {
     faStackOverflow = faStackOverflow;
 
     title = "Welcome!";
-    description = "My name is Aiden. I'm a software engineer based out of Buenos Aires, AR. I have professional expreience in Fronted/Backend development, specializing in Vue, React, and Node.";
+    description = "My name is Aiden. I'm a software engineer based out of Buenos Aires, AR. I have professional experience in Frontend/Backend development, specializing in Vue, React, and Node.";
     links = [
         {
             name: "github",
