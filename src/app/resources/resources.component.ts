@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MenuComponent } from '../menu/menu.component';
+import { ListComponent } from '../list/list.component';
 
 @Component({
   selector: 'app-resources',
@@ -7,8 +7,6 @@ import { MenuComponent } from '../menu/menu.component';
   styleUrls: ['./resources.component.css']
 })
 export class ResourcesComponent {
-
     title = "My Resources";
-    description = "This is a collection of resources I've found useful in my own endeavors";
-    
+    description = "This is a collection of resources I've found useful in my own endeavors";    
 }

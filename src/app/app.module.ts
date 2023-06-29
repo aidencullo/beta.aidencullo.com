@@ -11,7 +11,7 @@ import { DescriptionComponent } from './description/description.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { ResourcesComponent } from './resources/resources.component';
-import { MenuComponent } from './menu/menu.component';
+import { ListComponent } from './list/list.component';
 import { ProblemComponent } from './problem/problem.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 
@@ -25,7 +25,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
     NavbarComponent,
     ToolbarComponent,
     ResourcesComponent,
-    MenuComponent,
+    ListComponent,
     ProblemComponent,
     NotFoundComponent,
   ],
