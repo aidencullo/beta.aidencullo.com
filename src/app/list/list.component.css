@@ -1,3 +1,12 @@
-.menu {
-    @apply border-2 p-2;
+.list {
+    @apply p-8;
+}
+
+.list-title {
+    @apply border-2 p-2 text-center w-full;
+    @apply hover:bg-secondary-color;
+}
+
+.list-item {
+    @apply p-2 text-center text-secondary-color;
 }

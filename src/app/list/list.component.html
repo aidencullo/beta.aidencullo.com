@@ -1,5 +1,11 @@
-<ul class="items">
-  <li *ngFor="let item of items">
-  {{ item.title }}    
-  </li>
-</ul>
+<div class="list">
+  <button (click)="select()" class="list-title"> {{ title }} </button>
+  <ul class="items" *ngIf="selected">
+    <li class="list-item" *ngFor="let item of items">
+      <a [href]="item.link">
+        {{ item.title }}
+      </a>
+    </li>
+  </ul>
+</div>
+

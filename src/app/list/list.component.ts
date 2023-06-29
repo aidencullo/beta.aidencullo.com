@@ -10,9 +10,15 @@ import { Item } from '../item';
 export class ListComponent implements OnInit {
     
     items: Item[] = [];
+    title: String = "articles";
+    selected: Boolean = false;
 
     ngOnInit(): void {
         this.getItems();
+    }
+
+    select(): void {
+        this.selected = !this.selected;
     }
     
     getItems(): void {
