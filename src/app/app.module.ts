@@ -12,6 +12,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { ResourcesComponent } from './resources/resources.component';
 import { MenuComponent } from './menu/menu.component';
+import { ProblemComponent } from './problem/problem.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { MenuComponent } from './menu/menu.component';
     ToolbarComponent,
     ResourcesComponent,
     MenuComponent,
+    ProblemComponent,
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,

@@ -16,6 +16,10 @@ export class ToolbarComponent {
             link: '/resources',
             name: 'resources',
         },
+        {
+            link: '/problem',
+            name: 'problem',
+        },
     ];
     
 }
