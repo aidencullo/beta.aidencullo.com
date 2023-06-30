@@ -5,5 +5,8 @@
   <app-description>
     {{ description }}
   </app-description>
-  <app-list></app-list>
+  <a *ngFor="let list of lists"
+     routerLink="/list/{{list.id}}">
+    {{list.name}}
+  </a>
 </app-content>

@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ListService } from '../list.service';
-import { Item } from '../item';
+import { List } from '../list';
+import { ActivatedRoute } from '@angular/router';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-list',
@@ -9,22 +11,25 @@ import { Item } from '../item';
 })
 export class ListComponent implements OnInit {
     
-    items: Item[] = [];
-    title: String = "articles";
-    selected: Boolean = false;
+    list: List | undefined;
 
     ngOnInit(): void {
-        this.getItems();
+        this.getList();
     }
 
-    select(): void {
-        this.selected = !this.selected;
+    constructor(
+        private route: ActivatedRoute,
+        private listService: ListService,
+        private location: Location
+    ) {}
+
+    getList(): void {
+        const id = Number(this.route.snapshot.paramMap.get('id'));
+        this.listService.getList(id)
+            .subscribe(list => this.list = list);
     }
-    
-    getItems(): void {
-        this.listService.getItems()
-            .subscribe(items => this.items = items);
-    }
-    
-    constructor(public listService: ListService){}
+
+    goBack(): void {
+        this.location.back();
+    }    
 }

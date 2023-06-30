@@ -1,11 +1,14 @@
-<div class="list">
-  <button (click)="select()" class="list-title"> {{ title }} </button>
-  <ul class="items" *ngIf="selected">
-    <li class="list-item" *ngFor="let item of items">
-      <a [href]="item.link">
-        {{ item.title }}
-      </a>
-    </li>
-  </ul>
-</div>
-
+<app-content>
+  <div class="list" *ngIf="list">
+    <h2>{{list.name | uppercase}} List</h2>
+    <div>id: {{list.id}}</div>
+    <ul class="items">
+      <li class="list-item" *ngFor="let item of list.items">
+        <a [href]="item.link">
+          {{ item.title }}
+        </a>
+      </li>
+    </ul>
+    <button type="button" (click)="goBack()">go back</button>
+  </div>
+</app-content>
