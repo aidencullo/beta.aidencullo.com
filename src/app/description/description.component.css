@@ -1,6 +1,6 @@
 .description {
     /* text */
-    @apply text-sm md:text-lg text-center;
+    @apply text-center;
     /* spacing */
     @apply py-2;
 }

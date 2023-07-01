@@ -14,6 +14,8 @@ import { ResourcesComponent } from './resources/resources.component';
 import { ListComponent } from './list/list.component';
 import { ProblemComponent } from './problem/problem.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { ContentButtonComponent } from './content-button/content-button.component';
+import { ListRawComponent } from './list-raw/list-raw.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
     ListComponent,
     ProblemComponent,
     NotFoundComponent,
+    ContentButtonComponent,
+    ListRawComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,10 @@
+button {
+    /* border */
+    @apply border-2 border-primary-color;
+    /* dimensions */
+    @apply w-full p-2;
+    /* spacing */
+    @apply p-2;
+    /* color */
+    @apply hover:bg-primary-color hover:text-tertiary-color;
+}

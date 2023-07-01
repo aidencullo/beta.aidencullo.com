@@ -9,7 +9,7 @@
 
 .content {
     /* text */
-    @apply text-primary-color;
+    @apply text-primary-color text-xs sm:text-base;
     /* dimensions */
     @apply w-full md:w-1/2;
     /* spacing */
@@ -17,6 +17,5 @@
 }
 
 main {
-    text-align:center;
     position:relative;
 }

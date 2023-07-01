@@ -5,8 +5,11 @@
   <app-description>
     {{ description }}
   </app-description>
-  <a *ngFor="let list of lists"
-     routerLink="/list/{{list.id}}">
-    {{list.name}}
-  </a>
+  <div class="list-grid">
+    <a *ngFor="let list of lists" routerLink="/list/{{list.id}}">
+      <app-content-button>
+        {{list.name}}
+      </app-content-button>
+    </a>
+  </div>
 </app-content>
