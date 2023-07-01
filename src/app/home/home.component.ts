@@ -3,7 +3,7 @@ import { ContentComponent } from '../content/content.component';
 import { TitleComponent } from '../title/title.component';
 import { DescriptionComponent } from '../description/description.component';
 import { faGithub, faLinkedin, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
-import { faFile } from '@fortawesome/free-regular-svg-icons';
+import { faFile, faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 @Component({
     selector: 'app-home',
@@ -15,6 +15,7 @@ export class HomeComponent {
 
     faGithub = faGithub;
     faFile = faFile;
+    faEnvelope = faEnvelope;
     faLinkedin = faLinkedin;
     faStackOverflow = faStackOverflow;
 
@@ -40,6 +41,11 @@ export class HomeComponent {
             name: "resume",
             link: "./assets/resume.pdf",
             icon: faFile,
+        },
+        {
+            name: "mail",
+            link: "mailto:aidencullo@gmail.com",
+            icon: faEnvelope,
         },
     ];
 
