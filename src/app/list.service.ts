@@ -18,8 +18,6 @@ export class ListService {
     getList(id: number): Observable<List> {
         // For now, assume that a list with the specified `id` always exists.
         // Error handling will be added in the next step of the tutorial.
-        console.log(LISTS)
-        console.log(id)
         const list = LISTS.find(h => h.id === id)!;
         return of(list);
     }

@@ -11,7 +11,12 @@
     /* text */
     @apply text-[color:var(--primary-color)];
     /* dimensions */
-    @apply w-3/4;
+    @apply w-1/2;
     /* spacing */
     @apply my-6 p-6;
+}
+
+main {
+    text-align:center;
+    position:relative;
 }
