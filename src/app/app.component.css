@@ -9,11 +9,11 @@
 
 .content {
     /* text */
-    @apply text-[color:var(--primary-color)];
+    @apply text-primary-color;
     /* dimensions */
-    @apply w-1/2;
+    @apply w-full md:w-1/2;
     /* spacing */
-    @apply my-6 p-6;
+    @apply my-6;
 }
 
 main {

@@ -1,14 +1,14 @@
 .toolbar {
     /* positioning */
-    @apply flex justify-center;
+    @apply flex flex-col md:flex-row justify-center items-center;
 }
 .toolbar-item {
     /* background */
-    @apply bg-[var(--tertiary-color)]  hover:bg-[var(--primary-color)];
+    @apply bg-tertiary-color hover:bg-primary-color;
     /* typography */
-    @apply font-bold hover:text-[color:var(--tertiary-color)];
+    @apply font-bold hover:text-tertiary-color;
     /* spacing */
-    @apply px-6 py-4 mx-6;
+    @apply px-6 py-4 m-2;
     /* border */
     @apply rounded-lg shadow-2xl;
 }
