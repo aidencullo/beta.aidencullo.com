@@ -1,7 +1,7 @@
 <ul class="toolbar">
-  <li  *ngFor="let route of routes">
+  <li  *ngFor="let route of routes" class="toolbar-item">
     <a [routerLink]="route.link">
-      <button class="toolbar-item">
+      <button >
         {{ route.name }}
       </button>
     </a>
