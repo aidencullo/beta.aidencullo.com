@@ -5,9 +5,18 @@
   <app-description>
     {{ description }}
   </app-description>
-  <div class="code">
-  <pre>
-    {{ code }}
-  </pre>
+  <div>
+    <pre>
+      <code>{{ code }}</code>
+    </pre>
+  </div>
+  <app-content-button
+    (booleanEvent)="toggleAnswer()">
+    {{ showAnswer ? 'hide' : 'show' }} answer
+  </app-content-button>
+  <div class="code" *ngIf="showAnswer">
+    <pre>
+      <code>{{ answer }}</code>
+    </pre>
   </div>
 </app-content>

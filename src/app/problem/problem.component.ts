@@ -10,17 +10,23 @@ export class ProblemComponent {
     description = "What is the output of this code?";
     code = `
 var a = "hello";
-
 (() => {
-  function f1(){
-    console.log(a);
-  }
+function f1(){
+console.log(a);
+}
 
-  function f2(){
-    var a = "goodbye";
-    f1();
-  }
-  f2();
+function f2(){
+var a = "goodbye";
+f1();
+}
+f2();
 })();
 `
+    answer = `
+hello
+`
+    showAnswer = false;
+    toggleAnswer() {
+        this.showAnswer = !this.showAnswer;
+    }
 }
