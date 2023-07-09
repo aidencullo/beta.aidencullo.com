@@ -1,6 +1,4 @@
 .description {
-    /* text */
-    @apply text-center;
     /* spacing */
     @apply py-2;
 }

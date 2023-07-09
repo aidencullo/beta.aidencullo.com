@@ -8,18 +8,19 @@ import { Component } from '@angular/core';
 export class ProblemComponent {
     title = "Problem";
     description = "What is the output of this code?";
+    answerDescription = "var has functional scope, hence when we jump to f1, var a declared in f2 is no longer in scope.";
     code = `
 var a = "hello";
 (() => {
-function f1(){
-console.log(a);
-}
+	function f1(){
+		console.log(a);
+	}
 
-function f2(){
-var a = "goodbye";
-f1();
-}
-f2();
+	function f2(){
+		var a = "goodbye";
+		f1();
+	}
+	f2();
 })();
 `
     answer = `

@@ -1,9 +1,7 @@
 <app-content>
   <app-title>{{ list?.name | uppercase }}</app-title>
-  <div class="list-wrapper" *ngIf="list">
-    <div class="list">
-      <app-list-raw [list]="list"></app-list-raw>
-      <app-content-button (click)="goBack()">go back</app-content-button>
-    </div>
+  <div *ngIf="list" class="list">
+    <app-list-raw [list]="list"></app-list-raw>
   </div>
+  <app-content-button (click)="goBack()">go back</app-content-button>
 </app-content>

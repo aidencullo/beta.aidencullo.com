@@ -16,6 +16,7 @@ import { ProblemComponent } from './problem/problem.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ContentButtonComponent } from './content-button/content-button.component';
 import { ListRawComponent } from './list-raw/list-raw.component';
+import { CodeComponent } from './code/code.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { ListRawComponent } from './list-raw/list-raw.component';
     NotFoundComponent,
     ContentButtonComponent,
     ListRawComponent,
+    CodeComponent,
   ],
   imports: [
     BrowserModule,

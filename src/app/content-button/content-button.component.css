@@ -1,10 +1,10 @@
 button {
-    /* border */
-    @apply border-2 border-primary-color;
     /* dimensions */
-    @apply w-full p-2;
+    @apply w-full;
     /* spacing */
-    @apply p-2;
+    @apply p-4;
     /* color */
-    @apply hover:bg-primary-color hover:text-tertiary-color;
+    @apply bg-tertiary-color hover:bg-primary-color hover:text-tertiary-color;
+    /* shadow */
+    @apply shadow-2xl;
 }
