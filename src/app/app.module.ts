@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { TestModule } from './test/test.module';
 import { AppRoutingModule } from './app-routing.module';
+import { FakeModule } from '../fake/fake.module';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -41,6 +42,7 @@ import { CodeComponent } from './code/code.component';
         AppRoutingModule,
         FontAwesomeModule,
         TestModule,
+        FakeModule,
     ],
     providers: [],
     bootstrap: [AppComponent]
