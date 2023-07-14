@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { TestModule } from './test/test.module';
 import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
@@ -19,28 +20,29 @@ import { ListRawComponent } from './list-raw/list-raw.component';
 import { CodeComponent } from './code/code.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HomeComponent,
-      ContentComponent,
-    TitleComponent,
-    DescriptionComponent,
-    NavbarComponent,
-    ToolbarComponent,
-    ResourcesComponent,
-    ListComponent,
-    ProblemComponent,
-    NotFoundComponent,
-    ContentButtonComponent,
-    ListRawComponent,
-    CodeComponent,
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FontAwesomeModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        HomeComponent,
+        ContentComponent,
+        TitleComponent,
+        DescriptionComponent,
+        NavbarComponent,
+        ToolbarComponent,
+        ResourcesComponent,
+        ListComponent,
+        ProblemComponent,
+        NotFoundComponent,
+        ContentButtonComponent,
+        ListRawComponent,
+        CodeComponent,
+    ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        FontAwesomeModule,
+        TestModule,
+    ],
+    providers: [],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }
