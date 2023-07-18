@@ -1,7 +1,4 @@
 import { Component } from '@angular/core';
-import { ContentComponent } from '../content/content.component';
-import { TitleComponent } from '../title/title.component';
-import { DescriptionComponent } from '../description/description.component';
 import { faGithub, faLinkedin, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
 import { faFile, faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
