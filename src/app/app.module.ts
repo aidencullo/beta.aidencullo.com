@@ -3,12 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { ResourcesModule } from './resources/resources.module';
 import { TitleModule } from './title/title.module';
+import { ContentModule } from './content/content.module';
+import { DescriptionModule } from './description/description.module';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { ContentComponent } from './content/content.component';
-import { DescriptionComponent } from './description/description.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { ProblemComponent } from './problem/problem.component';
@@ -22,8 +22,6 @@ import { ListRawComponent } from './list-raw/list-raw.component';
     declarations: [
         AppComponent,
         HomeComponent,
-        ContentComponent,
-        DescriptionComponent,
         NavbarComponent,
         ToolbarComponent,
         ProblemComponent,
@@ -39,6 +37,8 @@ import { ListRawComponent } from './list-raw/list-raw.component';
         FontAwesomeModule,
         ResourcesModule,
         TitleModule,
+        ContentModule,
+        DescriptionModule,
     ],
     providers: [],
     bootstrap: [AppComponent]
