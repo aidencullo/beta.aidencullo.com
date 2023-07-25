@@ -1,28 +1,27 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { ListRoutingModule } from './list.routing.module';
+import { NotFoundRoutingModule } from './not-found.routing.module';
 
 import { TitleModule } from '../title/title.module';
 import { ContentModule } from '../content/content.module';
-import { ListRawModule } from '../list-raw/list-raw.module';
+import { DescriptionModule } from '../description/description.module';
 
-import { ListComponent } from './list/list.component';
- 
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
     declarations: [
-        ListComponent,
+        NotFoundComponent,
     ],
     imports: [
         CommonModule,
         TitleModule,
         ContentModule,
-        ListRawModule,
-        ListRoutingModule,
+        DescriptionModule,
+        NotFoundRoutingModule,
     ],
     exports: [
-        ListComponent,
+        NotFoundComponent,
     ],
 })
-export class ListModule { }
+export class NotFoundModule { }

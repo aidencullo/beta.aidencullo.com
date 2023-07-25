@@ -6,8 +6,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { ResourcesComponent } from './resources/resources/resources.component';
 import { ProblemComponent } from './problem/problem.component';
-import { NotFoundComponent } from './not-found/not-found.component';
-// import { ListComponent } from './list/list.component';
 
 const routes: Routes = [
     {
@@ -24,25 +22,13 @@ const routes: Routes = [
         component: ProblemComponent,
         data: { animation: 'isRight'},
     },
-    // {
-    //     path: 'list/:id',
-    //     component: ListComponent,
-    // },
-    {
-        path: '404',
-        component: ProblemComponent,
-    },
-    {
-        path: '**',
-        component: NotFoundComponent,
-    },
 ];
 
 @NgModule({
     imports: [
         BrowserModule,
         BrowserAnimationsModule,
-        RouterModule.forRoot(routes)
+        RouterModule.forRoot(routes),
     ],
     exports: [
         RouterModule,
