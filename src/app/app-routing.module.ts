@@ -7,7 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { ResourcesComponent } from './resources/resources/resources.component';
 import { ProblemComponent } from './problem/problem.component';
 import { NotFoundComponent } from './not-found/not-found.component';
-import { ListComponent } from './list/list.component';
+// import { ListComponent } from './list/list.component';
 
 const routes: Routes = [
     {
@@ -24,10 +24,10 @@ const routes: Routes = [
         component: ProblemComponent,
         data: { animation: 'isRight'},
     },
-    {
-        path: 'list/:id',
-        component: ListComponent,
-    },
+    // {
+    //     path: 'list/:id',
+    //     component: ListComponent,
+    // },
     {
         path: '404',
         component: ProblemComponent,

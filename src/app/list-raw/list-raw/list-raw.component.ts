@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { List } from '../list';
+import { List } from '../../list';
 
 @Component({
   selector: 'app-list-raw',

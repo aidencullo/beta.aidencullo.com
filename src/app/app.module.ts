@@ -10,13 +10,13 @@ import { ToolbarModule } from './toolbar/toolbar.module';
 import { ContentButtonModule } from './content-button/content-button.module';
 import { CodeModule } from './code/code.module';
 import { NavbarModule } from './navbar/navbar.module';
+import { ListRawModule } from './list-raw/list-raw.module';
+import { ListModule } from './list/list.module';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ProblemComponent } from './problem/problem.component';
 import { NotFoundComponent } from './not-found/not-found.component';
-import { ListComponent } from './list/list.component';
-import { ListRawComponent } from './list-raw/list-raw.component';
 
 @NgModule({
     declarations: [
@@ -24,8 +24,6 @@ import { ListRawComponent } from './list-raw/list-raw.component';
         HomeComponent,
         ProblemComponent,
         NotFoundComponent,
-        ListComponent,
-        ListRawComponent,
     ],
     imports: [
         BrowserModule,
@@ -38,6 +36,8 @@ import { ListRawComponent } from './list-raw/list-raw.component';
         ContentButtonModule,
         CodeModule,
         NavbarModule,
+        ListRawModule,
+        ListModule,
     ],
     providers: [],
     bootstrap: [AppComponent]

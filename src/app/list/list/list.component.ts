@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ListService } from '../list.service';
-import { List } from '../list';
+import { ListService } from '../../list.service';
+import { List } from '../../list';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 
