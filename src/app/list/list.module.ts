@@ -7,8 +7,10 @@ import { TitleModule } from '../title/title.module';
 import { ContentModule } from '../content/content.module';
 import { ListRawModule } from '../list-raw/list-raw.module';
 
+import { ListService } from './list.service';
+
 import { ListComponent } from './list/list.component';
- 
+
 
 @NgModule({
     declarations: [
@@ -20,6 +22,9 @@ import { ListComponent } from './list/list.component';
         ContentModule,
         ListRawModule,
         ListRoutingModule,
+    ],
+    providers: [
+        ListService,
     ],
     exports: [
         ListComponent,

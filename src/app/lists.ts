@@ -1,4 +1,4 @@
-import { List } from './list';
+import { List } from './list/models/list';
 
 const articles = {
     name: "articles",

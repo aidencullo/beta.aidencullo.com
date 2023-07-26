@@ -1,14 +1,12 @@
 import { Injectable } from '@angular/core';
-import { List } from './list';
-import { LISTS } from './lists';
+
 import { Observable, of } from 'rxjs';
 
-@Injectable({
-    providedIn: 'root'
-})
-export class ListService {
+import { List } from './models/list';
+import { LISTS } from '../lists';
 
-    constructor() {}
+@Injectable({providedIn: 'root'})
+export class ListService {
 
     getLists(): Observable<List[]> {
         const lists = of(LISTS);

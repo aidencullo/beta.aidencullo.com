@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-// import { List } from '../list';
-// import { ListService } from '../list.service';
+import { List } from '../../list/models/list';
+import { ListService } from '../../list/list.service';
 
 @Component({
     selector: 'app-resources',
@@ -11,17 +11,16 @@ export class ResourcesComponent implements OnInit {
 
     title = "My Resources";
     description = "This is a collection of resources I've found useful in my own endeavors";
-    // lists: List[] = [];
+    lists: List[] = [];
 
-    // constructor(private listService: ListService) { }
+    constructor(private listService: ListService) { }
 
     ngOnInit(): void {
-        // this.getLists();
+        this.getLists();
     }
 
-    // getLists(): void {
-    //     this.listService.getLists()
-    //         .subscribe(lists => this.lists = lists);
-    // }
-
+    getLists(): void {
+        this.listService.getLists()
+            .subscribe(lists => this.lists = lists);
+    }
 }
