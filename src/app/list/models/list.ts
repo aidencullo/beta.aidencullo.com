@@ -1,4 +1,4 @@
-import { Item } from '../.././models/item';
+import { Item } from '../../shared/models/item';
 
 export interface List {
     name: string,

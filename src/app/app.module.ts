@@ -40,7 +40,10 @@ import { ProblemComponent } from './problem/problem.component';
         AppRoutingModule,
         NotFoundModule,
     ],
-    providers: [],
-    bootstrap: [AppComponent]
+    providers: [
+    ],
+    bootstrap: [
+        AppComponent,
+    ],
 })
 export class AppModule { }

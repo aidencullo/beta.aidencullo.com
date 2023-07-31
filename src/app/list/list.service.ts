@@ -5,7 +5,8 @@ import { Observable, of } from 'rxjs';
 import { List } from './models/list';
 import { LISTS } from '../lists';
 
-@Injectable({providedIn: 'root'})
+@Injectable()
+
 export class ListService {
 
     getLists(): Observable<List[]> {
