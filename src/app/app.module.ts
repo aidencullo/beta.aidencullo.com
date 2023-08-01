@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 
-import { ResourcesModule } from './resources/resources.module';
 import { TitleModule } from './title/title.module';
 import { ContentModule } from './content/content.module';
 import { DescriptionModule } from './description/description.module';
@@ -16,18 +15,15 @@ import { ListModule } from './list/list.module';
 import { NotFoundModule } from './not-found/not-found.module';
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
 import { ProblemComponent } from './problem/problem.component';
 
 @NgModule({
     declarations: [
         AppComponent,
-        HomeComponent,
         ProblemComponent,
     ],
     imports: [
         BrowserModule,
-        ResourcesModule,
         TitleModule,
         ContentModule,
         DescriptionModule,

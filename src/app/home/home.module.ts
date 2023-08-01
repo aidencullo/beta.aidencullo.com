@@ -5,28 +5,25 @@ import { RouterModule } from '@angular/router';
 import { TitleModule } from '../title/title.module';
 import { ContentModule } from '../content/content.module';
 import { DescriptionModule } from '../description/description.module';
-import { ListModule } from '../list/list.module';
-import { ContentButtonModule } from '../content-button/content-button.module';
-import { ResourcesRoutingModule } from './resources-routing.module';
+import { NavbarModule } from '../navbar/navbar.module';
+import { HomeRoutingModule } from './home-routing.module';
 
-import { ResourcesComponent } from './resources/resources.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
     declarations: [
-        ResourcesComponent,
+        HomeComponent,
     ],
     imports: [
         CommonModule,
         TitleModule,
         ContentModule,
         DescriptionModule,
-        ListModule,
-        ContentButtonModule,
-        RouterModule,
-        ResourcesRoutingModule,
+        NavbarModule,
+        HomeRoutingModule,
     ],
     exports: [
-        ResourcesComponent,
+        HomeComponent,
     ],
 })
-export class ResourcesModule { }
+export class HomeModule { }
