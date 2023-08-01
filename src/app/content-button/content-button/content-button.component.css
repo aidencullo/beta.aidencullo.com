@@ -5,6 +5,7 @@ bbutton {
     @apply p-4;
     /* color */
     @apply bg-tertiary-color hover:bg-primary-color hover:text-tertiary-color;
+    @apply border-2;
     /* shadow */
     @apply shadow-2xl;
 }

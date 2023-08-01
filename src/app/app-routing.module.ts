@@ -3,26 +3,26 @@ import { RouterModule, Routes } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { ProblemComponent } from './problem/problem.component';
-
 const routes: Routes = [
     {
         path: '',
         loadChildren: () =>
-    import('./home/home.module').then(m =>
-        m.HomeModule),
+            import('./home/home.module').then(m =>
+                m.HomeModule),
         data: { animation: 'isLeft'},
     },
     {
         path: 'problem',
-        component: ProblemComponent,
+        loadChildren: () =>
+            import('./problem/problem.module').then(m =>
+                m.ProblemModule),
         data: { animation: 'isRight'},
     },
     {
         path: 'resources',
         loadChildren: () =>
-    import('./resources/resources.module').then(m =>
-        m.ResourcesModule)
+            import('./resources/resources.module').then(m =>
+                m.ResourcesModule)
     },
 ];
 
