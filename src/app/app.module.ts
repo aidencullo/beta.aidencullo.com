@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { ToolbarModule } from './toolbar/toolbar.module';
 import { NotFoundModule } from './not-found/not-found.module';
+import { ListModule } from './list/list.module';
 
 import { AppComponent } from './app.component';
 
@@ -16,6 +17,7 @@ import { AppComponent } from './app.component';
         BrowserModule,
         ToolbarModule,
         AppRoutingModule,
+        ListModule,
         NotFoundModule,
     ],
     bootstrap: [
