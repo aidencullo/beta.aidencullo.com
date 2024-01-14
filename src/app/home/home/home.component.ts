@@ -17,7 +17,8 @@ export class HomeComponent {
     faStackOverflow = faStackOverflow;
 
     title = "Welcome!";
-    description = "My name is Aiden. I'm a software engineer based out of Buenos Aires. I have professional experience in Frontend/Backend development, specializing in Vue, React, and Node.";
+    description = "My name is Aiden. I'm a software engineer based out
+    of New York City. I have professional experience in Frontend/Backend development, specializing in Vue, React, and Node.";
     links = [
         {
             name: "github",
@@ -31,7 +32,7 @@ export class HomeComponent {
         },
         {
             name: "linkedin",
-            link: "https://www.linkedin.com/in/aiden-cullo-93ba02a4",
+            link: "https://www.linkedin.com/in/aidencullo",
             icon: faLinkedin,
         },
         {
