@@ -17,8 +17,8 @@ export class HomeComponent {
     faStackOverflow = faStackOverflow;
 
     title = "Welcome!";
-    description = "My name is Aiden. I'm a software engineer based out
-    of New York City. I have professional experience in Frontend/Backend development, specializing in Vue, React, and Node.";
+    description = `My name is Aiden. I'm a software engineer based out
+    of New York City. I have professional experience in Frontend/Backend development, specializing in Vue, React, and Node.`;
     links = [
         {
             name: "github",
