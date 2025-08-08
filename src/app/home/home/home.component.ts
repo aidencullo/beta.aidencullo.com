@@ -18,7 +18,7 @@ export class HomeComponent {
 
     title = "Welcome!";
     description = `My name is Aiden. I'm a software engineer based out
-    of New York City. I have professional experience in Frontend/Backend development, specializing in Vue, React, and Node.`;
+    of New York City. I am a full stack engineer at JP Morgan where I'm helping develop a firm-wide LLM tracking system.`;
     links = [
         {
             name: "github",
