@@ -1,8 +1,0 @@
-.list-item {
-    @apply hover:text-secondary-color;
-    @apply p-2;
-}
-
-li {
-    list-style-type: circle;
-}

@@ -1,6 +1,0 @@
-.content-block {
-    /* background */
-    @apply bg-tertiary-color shadow-2xl;
-    /* spacing */
-    @apply my-6 md:my-12 p-10;
-}
