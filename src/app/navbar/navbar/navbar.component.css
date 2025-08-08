@@ -1,9 +1,19 @@
+.navbar {
+    @apply bg-tertiary-color w-full py-4;
+}
+
 .personal-links {
-    /* layout */
-    @apply flex justify-center py-8;
+    @apply flex justify-start items-center gap-6 px-6 max-w-6xl mx-auto;
 }
 
 .personal-link {
-    /* text */
-    @apply p-4 cursor-pointer hover:bg-primary-color hover:text-tertiary-color rounded-lg;
+    @apply list-none;
+}
+
+.personal-link a {
+    @apply text-primary-color transition-colors duration-200 ease-in-out hover:text-white;
+}
+
+.personal-link a:hover {
+    @apply text-white;
 }

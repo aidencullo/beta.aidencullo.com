@@ -1,7 +1,9 @@
-<ul class="personal-links">
-  <li class="personal-link" *ngFor="let personal of links">
-    <a [href]="personal.link">
-      <fa-icon [icon] = "personal.icon" class="fa-2xl"> </fa-icon>
-    </a>
-  </li>
-</ul>
+<nav class="navbar">
+  <ul class="personal-links">
+    <li class="personal-link" *ngFor="let personal of links">
+      <a [href]="personal.link" [title]="personal.name">
+        <fa-icon [icon]="personal.icon" class="fa-2xl"></fa-icon>
+      </a>
+    </li>
+  </ul>
+</nav>
