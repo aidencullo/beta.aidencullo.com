@@ -1,5 +1,5 @@
 .toolbar {
-    @apply bg-tertiary-color w-full py-4 flex justify-start items-center gap-8 px-6 max-w-6xl mx-auto;
+    @apply bg-tertiary-color w-full py-4 flex justify-start items-center gap-8 px-6;
 }
 
 .nav-link {

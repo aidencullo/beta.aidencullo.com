@@ -3,7 +3,7 @@
 }
 
 .personal-links {
-    @apply flex justify-start items-center gap-6 px-6 max-w-6xl mx-auto;
+    @apply flex justify-start items-center gap-6 px-6 w-full;
 }
 
 .personal-link {
