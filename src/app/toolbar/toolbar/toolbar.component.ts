@@ -18,7 +18,7 @@ export class ToolbarComponent {
         },
         {
             link: '/problem',
-            name: 'problem',
+            name: 'platform',
         },
     ];
     

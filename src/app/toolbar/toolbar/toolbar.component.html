@@ -1,7 +1,8 @@
-<div class="toolbar">
-  <a [routerLink]="route.link"  *ngFor="let route of routes">
-    <app-content-button>
-      {{ route.name }}
-    </app-content-button>
+<nav class="toolbar">
+  <a [routerLink]="route.link" 
+     [routerLinkActive]="'active'"
+     class="nav-link" 
+     *ngFor="let route of routes">
+    {{ route.name }}
   </a>
-</div>
+</nav>
