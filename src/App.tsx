@@ -1,9 +1,12 @@
 import './App.css'
+import Header from './components/Header'
+import Name from './components/Name'
 
 function App() {
   return (
     <div className="app">
-      <h1 className="name">Aiden Cullo</h1>
+      <Header />
+      <Name />
     </div>
   )
 }
