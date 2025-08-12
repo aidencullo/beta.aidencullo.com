@@ -3,7 +3,9 @@ import React from 'react'
 const Header: React.FC = () => {
   return (
     <header className="header">
-      {/* Blank header space */}
+      <div className="header-content">
+        <span className="header-text">Header</span>
+      </div>
     </header>
   )
 }
