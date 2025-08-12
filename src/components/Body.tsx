@@ -1,10 +1,10 @@
 import React from 'react'
-import Name from './Name'
+import Welcome from './Welcome'
 
 const Body: React.FC = () => {
   return (
     <main className="body">
-      <Name />
+      <Welcome />
     </main>
   )
 }
