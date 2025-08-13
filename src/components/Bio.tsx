@@ -6,7 +6,7 @@ import EmailLink from './EmailLink'
 
 const Bio: React.FC = () => {
   return (
-    <div className="bio-container">
+    <div className="bio-container" id="bio">
       <div className="profile-picture">
         <img src="/profile.jpg" alt="Aiden Cullo" />
       </div>

@@ -7,6 +7,7 @@ const Header: React.FC = () => {
         <a href="/" className="header-favicon">
           <img src="/favicon.svg" alt="Favicon" />
         </a>
+        <a href="#bio" className="header-me-link">me</a>
       </div>
     </header>
   )
