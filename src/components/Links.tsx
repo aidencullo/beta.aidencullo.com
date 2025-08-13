@@ -1,6 +1,5 @@
 import React from 'react'
-import { FaGithub, FaStackOverflow, FaLinkedin } from 'react-icons/fa'
-import { Mail } from 'lucide-react'
+import { FaGithub, FaStackOverflow, FaLinkedin, FaEnvelope } from 'react-icons/fa'
 import Link from './Link'
 
 const Links: React.FC = () => {
@@ -28,7 +27,7 @@ const Links: React.FC = () => {
         name="Email" 
         url="mailto:aidencullo@gmail.com" 
         isExternal={false}
-        icon={<Mail />}
+        icon={<FaEnvelope />}
       />
     </div>
   )
