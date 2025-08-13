@@ -4,7 +4,7 @@ interface LinkProps {
   name: string
   url: string
   isExternal?: boolean
-  icon: React.ReactNode
+  icon: React.ReactNode | string
 }
 
 const Link: React.FC<LinkProps> = ({ name, url, isExternal = false, icon }) => {
