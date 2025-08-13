@@ -70,6 +70,7 @@
 .body {
   flex: 1;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -90,7 +91,7 @@
   color: #2c3e50;
   text-align: center;
   letter-spacing: -0.02em;
-  margin-bottom: 15rem;
+  margin-bottom: 2rem;
 }
 
 .links-container {
@@ -106,10 +107,21 @@
   color: #3498db;
   text-decoration: none;
   transition: color 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .link:hover {
   color: #2980b9;
+}
+
+.link-icon {
+  font-size: 1.2rem;
+}
+
+.link-text {
+  font-size: 1.1rem;
 }
 
 .footer {

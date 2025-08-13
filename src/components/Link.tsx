@@ -4,9 +4,10 @@ interface LinkProps {
   name: string
   url: string
   isExternal?: boolean
+  icon: string
 }
 
-const Link: React.FC<LinkProps> = ({ name, url, isExternal = false }) => {
+const Link: React.FC<LinkProps> = ({ name, url, isExternal = false, icon }) => {
   return (
     <a 
       href={url} 
@@ -14,7 +15,8 @@ const Link: React.FC<LinkProps> = ({ name, url, isExternal = false }) => {
       rel={isExternal ? "noopener noreferrer" : ""}
       className="link"
     >
-      {name}
+      <span className="link-icon">{icon}</span>
+      <span className="link-text">{name}</span>
     </a>
   )
 }
