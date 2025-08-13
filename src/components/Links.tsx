@@ -1,34 +1,16 @@
 import React from 'react'
-import { FaGithub, FaStackOverflow, FaLinkedin, FaEnvelope } from 'react-icons/fa'
-import Link from './Link'
+import GitHubLink from './GitHubLink'
+import StackOverflowLink from './StackOverflowLink'
+import LinkedInLink from './LinkedInLink'
+import EmailLink from './EmailLink'
 
 const Links: React.FC = () => {
   return (
     <div className="links-container">
-      <Link 
-        name="GitHub" 
-        url="https://github.com/aidencullo" 
-        isExternal={true}
-        icon={<FaGithub />}
-      />
-      <Link 
-        name="Stack Overflow" 
-        url="https://stackoverflow.com/users/6447634/aiden-cullo" 
-        isExternal={true}
-        icon={<FaStackOverflow />}
-      />
-      <Link 
-        name="LinkedIn" 
-        url="https://www.linkedin.com/in/aidencullo" 
-        isExternal={true}
-        icon={<FaLinkedin />}
-      />
-      <Link 
-        name="Email" 
-        url="mailto:aidencullo@gmail.com" 
-        isExternal={false}
-        icon={<FaEnvelope />}
-      />
+      <GitHubLink />
+      <StackOverflowLink />
+      <LinkedInLink />
+      <EmailLink />
     </div>
   )
 }
