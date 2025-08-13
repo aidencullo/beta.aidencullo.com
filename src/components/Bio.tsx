@@ -3,6 +3,7 @@ import GitHubLink from './GitHubLink'
 import StackOverflowLink from './StackOverflowLink'
 import LinkedInLink from './LinkedInLink'
 import EmailLink from './EmailLink'
+import ResumeLink from './ResumeLink'
 
 const Bio: React.FC = () => {
   return (
@@ -20,6 +21,7 @@ const Bio: React.FC = () => {
         <StackOverflowLink />
         <LinkedInLink />
         <EmailLink />
+        <ResumeLink />
       </div>
     </div>
   )
