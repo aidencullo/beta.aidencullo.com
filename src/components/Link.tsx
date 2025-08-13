@@ -4,7 +4,7 @@ interface LinkProps {
   name: string
   url: string
   isExternal?: boolean
-  icon: string
+  icon: React.ReactNode
 }
 
 const Link: React.FC<LinkProps> = ({ name, url, isExternal = false, icon }) => {
@@ -14,9 +14,9 @@ const Link: React.FC<LinkProps> = ({ name, url, isExternal = false, icon }) => {
       target={isExternal ? "_blank" : "_self"}
       rel={isExternal ? "noopener noreferrer" : ""}
       className="link"
+      title={name}
     >
       <span className="link-icon">{icon}</span>
-      <span className="link-text">{name}</span>
     </a>
   )
 }
