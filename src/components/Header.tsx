@@ -4,9 +4,9 @@ const Header: React.FC = () => {
   return (
     <header className="header">
       <div className="header-content">
-        <div className="header-favicon">
+        <a href="/" className="header-favicon">
           <img src="/favicon.svg" alt="Favicon" />
-        </div>
+        </a>
       </div>
     </header>
   )
