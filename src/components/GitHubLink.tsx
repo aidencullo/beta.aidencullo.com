@@ -1,20 +1,15 @@
 import React from 'react'
 import { FaGithub } from 'react-icons/fa'
+import BaseLink from './BaseLink'
 
 const GitHubLink: React.FC = () => {
   const url = "https://github.com/aidencullo"
   const title = "GitHub"
   
   return (
-    <a 
-      href={url} 
-      target="_blank"
-      rel="noopener noreferrer"
-      className="link"
-      title={title}
-    >
+    <BaseLink href={url} title={title} isExternal={true}>
       <span className="link-icon"><FaGithub /></span>
-    </a>
+    </BaseLink>
   )
 }
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaEnvelope } from 'react-icons/fa'
+import BaseLink from './BaseLink'
 
 const EmailLink: React.FC = () => {
   const email = "aidencullo@gmail.com"
@@ -7,13 +8,9 @@ const EmailLink: React.FC = () => {
   const url = `mailto:${email}`
   
   return (
-    <a 
-      href={url} 
-      className="link"
-      title={title}
-    >
+    <BaseLink href={url} title={title} isExternal={false}>
       <span className="link-icon"><FaEnvelope /></span>
-    </a>
+    </BaseLink>
   )
 }
 
