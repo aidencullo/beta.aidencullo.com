@@ -1,6 +1,6 @@
 import React from 'react'
 
-interface BaseLinkProps {
+interface LinkProps {
   href: string
   title: string
   children: React.ReactNode
@@ -8,7 +8,7 @@ interface BaseLinkProps {
   className?: string
 }
 
-const BaseLink: React.FC<BaseLinkProps> = ({ 
+const Link: React.FC<LinkProps> = ({ 
   href, 
   title, 
   children, 
@@ -28,4 +28,4 @@ const BaseLink: React.FC<BaseLinkProps> = ({
   )
 }
 
-export default BaseLink
+export default Link

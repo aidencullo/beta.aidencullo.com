@@ -1,15 +1,15 @@
 import React from 'react'
 import { FaFileAlt } from 'react-icons/fa'
-import BaseLink from './BaseLink'
+import Link from './Link'
 
 const ResumeLink: React.FC = () => {
   const url = "/resume.pdf"
   const title = "Resume"
   
   return (
-    <BaseLink href={url} title={title} isExternal={true}>
+    <Link href={url} title={title} isExternal={true}>
       <span className="link-icon"><FaFileAlt /></span>
-    </BaseLink>
+    </Link>
   )
 }
 
