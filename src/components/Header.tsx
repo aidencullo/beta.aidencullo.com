@@ -1,13 +1,14 @@
 import React from 'react'
+import BaseLink from './BaseLink'
 
 const Header: React.FC = () => {
   return (
     <header className="header">
       <div className="header-content">
-        <a href="#" className="header-favicon">
+        <BaseLink href="#" title="Home" className="header-favicon">
           <img src="/favicon.svg" alt="Favicon" />
-        </a>
-        <a href="#bio" className="header-me-link">me</a>
+        </BaseLink>
+        <BaseLink href="#bio" title="About me" className="header-me-link">me</BaseLink>
       </div>
     </header>
   )
