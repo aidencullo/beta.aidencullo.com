@@ -1,14 +1,14 @@
 import React from 'react'
-import Link from './Link'
+import InternalLink from './InternalLink'
 
 const Header: React.FC = () => {
   return (
     <header className="header">
       <div className="header-content">
-        <Link href="#" title="Home" className="header-favicon">
+        <InternalLink href="#" title="Home" className="header-favicon">
           <img src="/favicon.svg" alt="Favicon" />
-        </Link>
-        <Link href="#bio" title="About me" className="header-me-link">me</Link>
+        </InternalLink>
+        <InternalLink href="#bio" title="About me" className="header-me-link">me</InternalLink>
       </div>
     </header>
   )

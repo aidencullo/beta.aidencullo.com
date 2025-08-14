@@ -1,15 +1,15 @@
 import React from 'react'
 import { FaGithub } from 'react-icons/fa'
-import Link from './Link'
+import ExternalLink from './ExternalLink'
 
 const GitHubLink: React.FC = () => {
   const url = "https://github.com/aidencullo"
   const title = "GitHub"
   
   return (
-    <Link href={url} title={title} isExternal={true}>
+    <ExternalLink href={url} title={title}>
       <span className="link-icon"><FaGithub /></span>
-    </Link>
+    </ExternalLink>
   )
 }
 

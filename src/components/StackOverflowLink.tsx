@@ -1,15 +1,15 @@
 import React from 'react'
 import { FaStackOverflow } from 'react-icons/fa'
-import Link from './Link'
+import ExternalLink from './ExternalLink'
 
 const StackOverflowLink: React.FC = () => {
   const url = "https://stackoverflow.com/users/6447634/aiden-cullo"
   const title = "Stack Overflow"
   
   return (
-    <Link href={url} title={title} isExternal={true}>
+    <ExternalLink href={url} title={title}>
       <span className="link-icon"><FaStackOverflow /></span>
-    </Link>
+    </ExternalLink>
   )
 }
 
