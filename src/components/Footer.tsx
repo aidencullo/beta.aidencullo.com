@@ -3,7 +3,9 @@ import React from 'react'
 const Footer: React.FC = () => {
   return (
     <footer className="footer">
-      {/* Footer space - no text */}
+      <div className="footer-content">
+        {/* Footer space - cleared content */}
+      </div>
     </footer>
   )
 }
