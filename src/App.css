@@ -109,6 +109,26 @@
   justify-content: flex-start;
 }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -30%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .welcome-container {
   text-align: center;
   position: absolute;
@@ -117,6 +137,14 @@
   transform: translate(-50%, -50%);
   width: 100%;
   max-width: 100%;
+  opacity: 0;
+  transform: translate(-50%, -30%);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.welcome-container.fade-in {
+  opacity: 1;
+  transform: translate(-50%, -50%);
 }
 
 .bio-container {
@@ -132,6 +160,12 @@
   align-items: center;
   gap: 2rem;
   scroll-margin-top: 100px;
+  opacity: 0;
+  transition: opacity 0.8s ease-out;
+}
+
+.bio-container.fade-in {
+  opacity: 1;
 }
 
 .profile-picture {

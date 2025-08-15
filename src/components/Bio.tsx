@@ -1,4 +1,5 @@
 import React from 'react'
+import { useScrollAnimation } from '../hooks/useScrollAnimation'
 import GitHubLink from './GitHubLink'
 import StackOverflowLink from './StackOverflowLink'
 import LinkedInLink from './LinkedInLink'
@@ -6,8 +7,10 @@ import EmailLink from './EmailLink'
 import ResumeLink from './ResumeLink'
 
 const Bio: React.FC = () => {
+  const bioRef = useScrollAnimation()
+
   return (
-    <div className="bio-container" id="bio">
+    <div ref={bioRef} className="bio-container" id="bio">
       <div className="profile-picture">
         <img src="/profile.jpg" alt="Aiden Cullo" />
       </div>
