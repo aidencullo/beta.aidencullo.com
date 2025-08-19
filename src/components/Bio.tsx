@@ -16,7 +16,7 @@ const Bio: React.FC = () => {
       </div>
       
       <div className="bio-text">
-        <p>Hello! My name is Aiden. I'm a software engineer based out of Brooklyn. I am a full stack engineer at JP Morgan where I'm developing a firm-wide LLM tracking system.</p>
+        <p>Hello! My name is Aiden. I'm a software engineer based out of New York City. I'm a full stack engineer at JP Morgan where I'm developing a firm-wide LLM tracking system.</p>
       </div>
       
       <div className="bio-links">
