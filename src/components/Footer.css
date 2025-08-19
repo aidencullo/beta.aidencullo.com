@@ -29,7 +29,7 @@
 .footer-section h4 {
   color: #ffffff;
   font-size: 13px;
-  margin-bottom: 8px;
+  margin-bottom: 2px;
   text-transform: uppercase;
   margin-top: 0;
 }
@@ -41,7 +41,7 @@
 }
 
 .footer-section ul li {
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 }
 
 .footer-section ul li a {
