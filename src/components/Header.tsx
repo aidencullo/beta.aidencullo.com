@@ -5,7 +5,7 @@ const Header: React.FC = () => {
   return (
     <header className="header">
       <div className="header-content">
-        <InternalLink href="#bio" title="About me" className="header-me-link">me</InternalLink>
+        <InternalLink href="#bio" title="About me" className="header-me-link">aiden</InternalLink>
       </div>
     </header>
   )
