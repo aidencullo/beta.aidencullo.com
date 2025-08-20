@@ -5,17 +5,41 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-headers">
-        <div className="footer-header">
+        <div className="footer-section">
           <h3>LOREM IPSUM</h3>
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+          </ul>
         </div>
-        <div className="footer-header">
+        <div className="footer-section">
           <h3>LOREM IPSUM</h3>
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+          </ul>
         </div>
-        <div className="footer-header">
+        <div className="footer-section">
           <h3>LOREM IPSUM</h3>
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+          </ul>
         </div>
-        <div className="footer-header">
+        <div className="footer-section">
           <h3>LOREM IPSUM</h3>
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+          </ul>
         </div>
       </div>
       <div className="footer-bottom">

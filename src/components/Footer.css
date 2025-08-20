@@ -46,12 +46,11 @@
   flex-direction: column;
 }
 
-.footer-section h4 {
+.footer-section h3 {
   color: #ffffff;
-  font-size: 13px;
-  margin-bottom: 2px;
-  text-transform: uppercase;
-  margin-top: 0;
+  font-size: 18px;
+  margin: 0 0 15px 0;
+  font-weight: 600;
 }
 
 .footer-section ul {
@@ -61,7 +60,9 @@
 }
 
 .footer-section ul li {
-  margin-bottom: 2px;
+  color: #d6d9dc;
+  margin-bottom: 8px;
+  font-size: 14px;
 }
 
 .footer-section ul li a {
