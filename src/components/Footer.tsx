@@ -4,49 +4,18 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="footer-sections">
-        <div className="footer-section">
-          <h4>STACK OVERFLOW</h4>
-          <ul>
-            <li>Questions</li>
-            <li>Help</li>
-            <li>Chat</li>
-          </ul>
+      <div className="footer-headers">
+        <div className="footer-header">
+          <h3>LOREM IPSUM</h3>
         </div>
-        <div className="footer-section">
-          <h4>PRODUCTS</h4>
-          <ul>
-            <li>Teams</li>
-            <li>Advertising</li>
-            <li>Talent</li>
-          </ul>
+        <div className="footer-header">
+          <h3>LOREM IPSUM</h3>
         </div>
-        <div className="footer-section">
-          <h4>COMPANY</h4>
-          <ul>
-            <li>About</li>
-            <li>Press</li>
-            <li>Work Here</li>
-            <li>Legal</li>
-            <li>Privacy Policy</li>
-            <li>Terms of Service</li>
-            <li>Contact Us</li>
-            <li>Your Privacy Choices</li>
-            <li>Cookie Policy</li>
-          </ul>
+        <div className="footer-header">
+          <h3>LOREM IPSUM</h3>
         </div>
-        <div className="footer-section">
-          <h4>STACK EXCHANGE NETWORK</h4>
-          <ul>
-            <li>Technology</li>
-            <li>Culture & recreation</li>
-            <li>Life & arts</li>
-            <li>Science</li>
-            <li>Professional</li>
-            <li>Business</li>
-            <li>API</li>
-            <li>Data</li>
-          </ul>
+        <div className="footer-header">
+          <h3>LOREM IPSUM</h3>
         </div>
       </div>
       <div className="footer-bottom">

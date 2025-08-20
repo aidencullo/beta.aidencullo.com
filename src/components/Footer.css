@@ -12,6 +12,26 @@
   overflow: hidden;
 }
 
+.footer-headers {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 0 40px 0;
+  padding: 20px 0;
+  gap: 15%;
+  width: 100%;
+}
+
+.footer-header {
+  text-align: center;
+}
+
+.footer-header h3 {
+  color: #ffffff;
+  font-size: 24px;
+  margin: 0;
+  font-weight: 600;
+}
+
 .footer-sections {
   display: flex;
   justify-content: space-between;
