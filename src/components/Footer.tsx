@@ -55,8 +55,7 @@ const Footer = () => {
           <InternalLink href="#" title="Blog" className="header-me-link">Blog</InternalLink> &nbsp; <InternalLink href="#" title="Facebook" className="header-me-link">Facebook</InternalLink> &nbsp; <InternalLink href="#" title="Twitter" className="header-me-link">Twitter</InternalLink> &nbsp; <InternalLink href="#" title="LinkedIn" className="header-me-link">LinkedIn</InternalLink> &nbsp; <InternalLink href="#" title="Instagram" className="header-me-link">Instagram</InternalLink>
         </p>
         <p>
-          Site design / logo © 2025 Stack Exchange Inc; user contributions
-          licensed under CC BY-SA. rev 2025.8.14.32835
+          © 2025 Aiden Cullo. All rights reserved. This site is hosted on GitHub Pages with a Namecheap domain. No content may be used, copied, or processed by any means, including AI, without permission.
         </p>
       </div>
     </footer>
