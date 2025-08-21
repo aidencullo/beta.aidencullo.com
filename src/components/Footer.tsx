@@ -55,7 +55,7 @@ const Footer = () => {
           <InternalLink href="#" title="Blog" className="header-me-link">Blog</InternalLink> &nbsp; <InternalLink href="#" title="Facebook" className="header-me-link">Facebook</InternalLink> &nbsp; <InternalLink href="#" title="Twitter" className="header-me-link">Twitter</InternalLink> &nbsp; <InternalLink href="#" title="LinkedIn" className="header-me-link">LinkedIn</InternalLink> &nbsp; <InternalLink href="#" title="Instagram" className="header-me-link">Instagram</InternalLink>
         </p>
         <p>
-          © 2025 Aiden Cullo. All rights reserved. This site is hosted on GitHub Pages with a Namecheap domain. No content may be used, copied, or processed by any means, including AI, without permission.
+          © 2025 Aiden Cullo. All rights reserved. This site is hosted on GitHub Pages with a Namecheap domain.
         </p>
       </div>
     </footer>
