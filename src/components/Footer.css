@@ -41,8 +41,7 @@
 }
 
 .footer-section {
-  display: flex;
-  flex-direction: column;
+  display: block;
 }
 
 .footer-section h3 {

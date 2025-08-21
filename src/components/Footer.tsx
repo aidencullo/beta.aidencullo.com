@@ -6,39 +6,46 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-headers">
         <div className="footer-section">
-          <h3>LOREM IPSUM</h3>
+          <h3>Stack Overflow</h3>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
+            <li>Questions</li>
+            <li>Help</li>
+            <li>Chat</li>
           </ul>
         </div>
         <div className="footer-section">
-          <h3>LOREM IPSUM</h3>
+          <h3>Products</h3>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
+            <li>Teams</li>
+            <li>Advertising</li>
+            <li>Talent</li>
           </ul>
         </div>
         <div className="footer-section">
-          <h3>LOREM IPSUM</h3>
+          <h3>Company</h3>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
+            <li>About</li>
+            <li>Press</li>
+            <li>Work Here</li>
+            <li>Legal</li>
+            <li>Privacy Policy</li>
+            <li>Terms of Service</li>
+            <li>Contact Us</li>
+            <li>Your Privacy Choices</li>
+            <li>Cookie Policy</li>
           </ul>
         </div>
         <div className="footer-section">
-          <h3>LOREM IPSUM</h3>
+          <h3>Stack Exchange Network</h3>
           <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
+            <li>Technology</li>
+            <li>Culture & recreation</li>
+            <li>Life & arts</li>
+            <li>Science</li>
+            <li>Professional</li>
+            <li>Business</li>
+            <li>API</li>
+            <li>Data</li>
           </ul>
         </div>
       </div>
