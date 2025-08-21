@@ -68,6 +68,18 @@
   text-decoration: none;
 }
 
+.footer .header-me-link {
+  font-size: 13px !important;
+}
+
+.footer-section h3 .header-me-link {
+  text-transform: uppercase !important;
+}
+
+.footer-bottom .header-me-link {
+  font-size: 11px !important;
+}
+
 .footer-section ul li a:hover {
   text-decoration: none;
   color: #ffffff;
@@ -82,7 +94,7 @@
 
 .footer-bottom p {
   margin: 5px 0;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .footer-bottom a {
