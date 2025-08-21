@@ -69,7 +69,8 @@
 }
 
 .footer-section ul li a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .footer-bottom {
@@ -90,5 +91,6 @@
 }
 
 .footer-bottom a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #ffffff;
 }
