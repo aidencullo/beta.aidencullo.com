@@ -10,11 +10,8 @@ const Footer = () => {
           <h3><InternalLink href="#" title="Contact" className="header-me-link">Contact</InternalLink></h3>
           <ul>
             <li><a href="mailto:aidencullo@gmail.com" className="header-me-link">Email</a></li>
-            <li><a href="https://facebook.com/aidencullo" target="_blank" rel="noopener noreferrer" className="header-me-link">Facebook</a></li>
-            <li><a href="https://instagram.com/aidencullo" target="_blank" rel="noopener noreferrer" className="header-me-link">Instagram</a></li>
-            <li><a href="https://twitter.com/aidencullo" target="_blank" rel="noopener noreferrer" className="header-me-link">Twitter</a></li>
-            <li><a href="https://tiktok.com/@aidencullo" target="_blank" rel="noopener noreferrer" className="header-me-link">TikTok</a></li>
-            <li><a href="https://bsky.app/profile/aidencullo.bsky.social" target="_blank" rel="noopener noreferrer" className="header-me-link">Bluesky</a></li>
+            <li><a href="https://www.linkedin.com/in/aidencullo/" target="_blank" rel="noopener noreferrer" className="header-me-link">LinkedIn</a></li>
+            <li><a href="https://x.com/CuloEgan" target="_blank" rel="noopener noreferrer" className="header-me-link">X</a></li>
           </ul>
         </div>
         <div className="footer-section">
