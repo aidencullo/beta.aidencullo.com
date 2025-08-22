@@ -18,11 +18,12 @@ const Footer = () => {
           </ul>
         </div>
         <div className="footer-section">
-          <h3><InternalLink href="#" title="Products" className="header-me-link">Products</InternalLink></h3>
+          <h3><InternalLink href="#" title="Site" className="header-me-link">Site</InternalLink></h3>
           <ul>
-            <li><InternalLink href="#" title="Teams" className="header-me-link">Teams</InternalLink></li>
-            <li><InternalLink href="#" title="Advertising" className="header-me-link">Advertising</InternalLink></li>
-            <li><InternalLink href="#" title="Talent" className="header-me-link">Talent</InternalLink></li>
+            <li><a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer" className="header-me-link">GitHub Pages</a></li>
+            <li><a href="https://www.namecheap.com/" target="_blank" rel="noopener noreferrer" className="header-me-link">Namecheap</a></li>
+            <li><a href="https://react.dev/" target="_blank" rel="noopener noreferrer" className="header-me-link">React</a></li>
+            <li><a href="https://vitejs.dev/" target="_blank" rel="noopener noreferrer" className="header-me-link">Vite</a></li>
           </ul>
         </div>
         <div className="footer-section">
