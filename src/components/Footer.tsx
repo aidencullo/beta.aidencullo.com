@@ -7,11 +7,14 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-headers">
         <div className="footer-section">
-          <h3><InternalLink href="#" title="Stack Overflow" className="header-me-link">Stack Overflow</InternalLink></h3>
+          <h3><InternalLink href="#" title="Contact" className="header-me-link">Contact</InternalLink></h3>
           <ul>
-            <li><InternalLink href="#" title="Questions" className="header-me-link">Questions</InternalLink></li>
-            <li><InternalLink href="#" title="Help" className="header-me-link">Help</InternalLink></li>
-            <li><InternalLink href="#" title="Chat" className="header-me-link">Chat</InternalLink></li>
+            <li><a href="mailto:aidencullo@gmail.com" className="header-me-link">Email</a></li>
+            <li><a href="https://facebook.com/aidencullo" target="_blank" rel="noopener noreferrer" className="header-me-link">Facebook</a></li>
+            <li><a href="https://instagram.com/aidencullo" target="_blank" rel="noopener noreferrer" className="header-me-link">Instagram</a></li>
+            <li><a href="https://twitter.com/aidencullo" target="_blank" rel="noopener noreferrer" className="header-me-link">Twitter</a></li>
+            <li><a href="https://tiktok.com/@aidencullo" target="_blank" rel="noopener noreferrer" className="header-me-link">TikTok</a></li>
+            <li><a href="https://bsky.app/profile/aidencullo.bsky.social" target="_blank" rel="noopener noreferrer" className="header-me-link">Bluesky</a></li>
           </ul>
         </div>
         <div className="footer-section">
