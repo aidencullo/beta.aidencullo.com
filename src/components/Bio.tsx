@@ -5,6 +5,7 @@ import StackOverflowLink from './StackOverflowLink'
 import LinkedInLink from './LinkedInLink'
 import EmailLink from './EmailLink'
 import ResumeLink from './ResumeLink'
+import BlogLink from './BlogLink'
 
 const Bio: React.FC = () => {
   const bioRef = useScrollAnimation()
@@ -25,6 +26,7 @@ const Bio: React.FC = () => {
         <LinkedInLink />
         <EmailLink />
         <ResumeLink />
+        <BlogLink />
       </div>
     </div>
   )
