@@ -27,30 +27,21 @@ const Footer = () => {
           </ul>
         </div>
         <div className="footer-section">
-          <h3><InternalLink href="#" title="Company" className="header-me-link">Company</InternalLink></h3>
+          <h3><InternalLink href="#" title="Projects" className="header-me-link">Projects</InternalLink></h3>
           <ul>
-            <li><InternalLink href="#" title="About" className="header-me-link">About</InternalLink></li>
-            <li><InternalLink href="#" title="Press" className="header-me-link">Press</InternalLink></li>
-            <li><InternalLink href="#" title="Work Here" className="header-me-link">Work Here</InternalLink></li>
-            <li><InternalLink href="#" title="Legal" className="header-me-link">Legal</InternalLink></li>
-            <li><InternalLink href="#" title="Privacy Policy" className="header-me-link">Privacy Policy</InternalLink></li>
-            <li><InternalLink href="#" title="Terms of Service" className="header-me-link">Terms of Service</InternalLink></li>
-            <li><InternalLink href="#" title="Contact Us" className="header-me-link">Contact Us</InternalLink></li>
-            <li><InternalLink href="#" title="Your Privacy Choices" className="header-me-link">Your Privacy Choices</InternalLink></li>
-            <li><InternalLink href="#" title="Cookie Policy" className="header-me-link">Cookie Policy</InternalLink></li>
+            <li><a href="https://github.com/pypa/pipenv" target="_blank" rel="noopener noreferrer" className="header-me-link">Pipenv</a></li>
+            <li><a href="https://github.com/aidencullo/trueorfalse.online" target="_blank" rel="noopener noreferrer" className="header-me-link">TrueorFalse</a></li>
+            <li><a href="https://github.com/aidencullo/nomail" target="_blank" rel="noopener noreferrer" className="header-me-link">NoMail</a></li>
+            <li><a href="https://github.com/aidencullo/seatFinder" target="_blank" rel="noopener noreferrer" className="header-me-link">SeatFinder</a></li>
           </ul>
         </div>
         <div className="footer-section">
-          <h3><InternalLink href="#" title="Stack Exchange Network" className="header-me-link">Stack Exchange Network</InternalLink></h3>
+          <h3><InternalLink href="#" title="Volunteer" className="header-me-link">Volunteer</InternalLink></h3>
           <ul>
-            <li><InternalLink href="#" title="Technology" className="header-me-link">Technology</InternalLink></li>
-            <li><InternalLink href="#" title="Culture & recreation" className="header-me-link">Culture & recreation</InternalLink></li>
-            <li><InternalLink href="#" title="Life & arts" className="header-me-link">Life & arts</InternalLink></li>
-            <li><InternalLink href="#" title="Science" className="header-me-link">Science</InternalLink></li>
-            <li><InternalLink href="#" title="Professional" className="header-me-link">Professional</InternalLink></li>
-            <li><InternalLink href="#" title="Business" className="header-me-link">Business</InternalLink></li>
-            <li><InternalLink href="#" title="API" className="header-me-link">API</InternalLink></li>
-            <li><InternalLink href="#" title="Data" className="header-me-link">Data</InternalLink></li>
+            <li><a href="https://www.nycmesh.net/" target="_blank" rel="noopener noreferrer" className="header-me-link">NYC Mesh</a></li>
+            <li><a href="https://bushwickayudamutua.com/" target="_blank" rel="noopener noreferrer" className="header-me-link">Bushwick Ayuda Mutua</a></li>
+            <li><a href="https://socialists.nyc/" target="_blank" rel="noopener noreferrer" className="header-me-link">NYC DSA</a></li>
+            <li><a href="https://www.democracynow.org/2025/8/6/headlines/advocates_launch_protest_camp_outside_new_york_city_immigration_offices" target="_blank" rel="noopener noreferrer" className="header-me-link">Democracy Now!</a></li>
           </ul>
         </div>
       </div>
