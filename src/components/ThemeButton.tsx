@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
+import { FaSun, FaMoon } from 'react-icons/fa'
 
 const ThemeButton: React.FC = () => {
-
   const [theme, setTheme] = useState("light")
 
   const changeTheme = () => {
@@ -16,7 +16,7 @@ const ThemeButton: React.FC = () => {
 
   return (
     <button onClick={changeTheme} className="header-me-link" style={{ background: 'none', border: 'none', cursor: 'pointer' }}>
-      {theme === "light" ? '🌙' : '🌞'}
+      {theme === "light" ? <FaMoon /> : <FaSun />}
     </button>
   )
 }
