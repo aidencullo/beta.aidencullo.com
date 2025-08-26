@@ -1,14 +1,14 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function useTheme() {
   const [theme, setTheme] = useState<string>("light")
 
-  const setThemeWrapper = (theme: string) => {
-    setTheme(theme)
+  useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme)
-  }
+    localStorage.setItem('theme', theme)
+  }, [theme])
 
-  return { theme, setTheme: setThemeWrapper };
+  return { theme, setTheme }
 }
 
 export { useTheme }
