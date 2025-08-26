@@ -11,7 +11,7 @@ const ThemeButton: React.FC = () => {
 
   return (
     <button onClick={changeTheme} className="header-me-link" style={{ background: 'none', border: 'none', cursor: 'pointer' }}>
-      {theme === "light" ? <FaMoon /> : <FaSun />}
+      {theme && (theme === "light" ? <FaMoon /> : <FaSun />)}
     </button>
   )
 }
