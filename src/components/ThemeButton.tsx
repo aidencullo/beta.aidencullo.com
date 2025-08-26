@@ -1,17 +1,12 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
+import { useTheme } from '../hooks/useTheme'
 import { FaSun, FaMoon } from 'react-icons/fa'
 
 const ThemeButton: React.FC = () => {
-  const [theme, setTheme] = useState("light")
+  const { theme, setTheme } = useTheme()
 
   const changeTheme = () => {
-    if (document.documentElement.getAttribute('data-theme') === 'light') {
-      setTheme("dark")
-      document.documentElement.setAttribute('data-theme', 'dark');
-    } else {
-      setTheme("light")
-      document.documentElement.setAttribute('data-theme', 'light');
-    }
+    setTheme(theme === "light" ? "dark" : "light")
   }
 
   return (

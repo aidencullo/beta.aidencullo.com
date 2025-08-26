@@ -14,11 +14,11 @@
 }
 
 :root[data-theme="light"] {
-    --text-primary: black;
+    --text-primary: white
 }
 
 :root[data-theme="dark"] {
-    --text-primary: white;
+    --text-primary: black;
 }
 
 
