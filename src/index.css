@@ -10,6 +10,6 @@ html {
 
 body {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  background-color: var(--dark-background);
-  color: var(--white-text);
+  background-color: var(--background);
+  color: var(--text-primary);
 }

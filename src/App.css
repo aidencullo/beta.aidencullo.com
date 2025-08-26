@@ -1,23 +1,23 @@
 :root {
-  --dark-blue: #1a1a2e;
-  --navy-blue: #16213e;
-  --medium-blue: #0f3460;
-  --coral-red: #e94560;
-  --light-coral: #ff6b7a;
-  --white-text: #ffffff;
-  --gray-text: #b8b8b8;
-  --dark-background: #0f0f23;
-  --dark-surface: #1a1a2e;
-  --light-surface: #2a2a3e;
-  --border-color: #333366;
+  --primary-dark: navy;
+  --primary: darkblue;
+  --secondary: midnightblue;
+  --accent: coral;
+  --accent-light: lightsalmon;
+  --text-primary: white;
+  --text-secondary: lightgray;
+  --background: black;
+  --surface: navy;
+  --surface-light: darkslateblue;
+  --border: slateblue;
 }
 
 :root[data-theme="light"] {
-    --white-text: white
+    --text-primary: white
 }
 
 :root[data-theme="dark"] {
-    --white-text: black;
+    --text-primary: black;
 }
 
 
@@ -44,7 +44,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  background-color: var(--navy-blue);
+  background-color: var(--primary);
   z-index: 1000;
 }
 
@@ -75,7 +75,7 @@
 .header-me-link {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.1rem;
-  color: var(--white-text);
+  color: var(--text-primary);
   text-decoration: none;
   transition: opacity 0.2s ease;
   margin-left: 20px;
@@ -105,7 +105,7 @@
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
-  color: var(--white-text);
+  color: var(--text-primary);
   text-decoration: none;
   transition: opacity 0.2s ease;
 }
@@ -118,7 +118,7 @@
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
-  color: var(--white-text);
+  color: var(--text-primary);
   letter-spacing: 0.05em;
 }
 
@@ -213,7 +213,7 @@
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.2rem;
   line-height: 1.6;
-  color: var(--white-text);
+  color: var(--text-primary);
   max-width: 600px;
 }
 
@@ -231,7 +231,7 @@
   font-weight: 300;
   margin: 0;
   padding: 0;
-  color: var(--white-text);
+  color: var(--text-primary);
   text-align: center;
   letter-spacing: -0.02em;
   margin-bottom: 0.5rem;
@@ -242,7 +242,7 @@
 .link {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.1rem;
-  color: var(--coral-red);
+  color: var(--accent);
   text-decoration: none;
   transition: color 0.2s ease;
   display: flex;
@@ -251,12 +251,12 @@
 }
 
 .link:hover {
-  color: var(--light-coral);
+  color: var(--accent-light);
 }
 
 .link-icon {
   font-size: 2.5rem;
-  color: var(--white-text);
+  color: var(--text-primary);
 }
 
 
@@ -268,7 +268,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--navy-blue);
+  background-color: var(--primary);
   z-index: 1000;
 }
 
