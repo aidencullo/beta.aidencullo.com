@@ -1,8 +1,8 @@
 import React from 'react';
-import PipenvTextLink from './PipenvTextLink';
-import TrueorFalseTextLink from './TrueorFalseTextLink';
-import NoMailTextLink from './NoMailTextLink';
-import SeatFinderTextLink from './SeatFinderTextLink';
+import PipenvTextLink from './links/PipenvTextLink';
+import TrueorFalseTextLink from './links/TrueorFalseTextLink';
+import NoMailTextLink from './links/NoMailTextLink';
+import SeatFinderTextLink from './links/SeatFinderTextLink';
 
 const ProjectLinks: React.FC = () => {
   return (

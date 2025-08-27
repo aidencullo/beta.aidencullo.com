@@ -1,5 +1,5 @@
 import React from 'react'
-import InternalLink from './InternalLink'
+import InternalLink from './links/InternalLink'
 import ThemeButton from './ThemeButton'
 
 const Header: React.FC = () => {

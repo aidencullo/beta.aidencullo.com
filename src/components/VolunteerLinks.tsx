@@ -1,8 +1,8 @@
 import React from 'react';
-import NYCMeshTextLink from './NYCMeshTextLink';
-import BushwickAyudaMutuaTextLink from './BushwickAyudaMutuaTextLink';
-import NYCDSATextLink from './NYCDSATextLink';
-import DemocracyNowTextLink from './DemocracyNowTextLink';
+import NYCMeshTextLink from './links/NYCMeshTextLink';
+import BushwickAyudaMutuaTextLink from './links/BushwickAyudaMutuaTextLink';
+import NYCDSATextLink from './links/NYCDSATextLink';
+import DemocracyNowTextLink from './links/DemocracyNowTextLink';
 
 const VolunteerLinks: React.FC = () => {
   return (

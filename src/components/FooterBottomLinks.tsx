@@ -1,9 +1,9 @@
 import React from 'react';
-import GitHubTextLink from './GitHubTextLink';
-import StackOverflowTextLink from './StackOverflowTextLink';
-import LinkedInTextLink from './LinkedInTextLink';
-import EmailTextLink from './EmailTextLink';
-import ResumeTextLink from './ResumeTextLink';
+import GitHubTextLink from './links/GitHubTextLink';
+import StackOverflowTextLink from './links/StackOverflowTextLink';
+import LinkedInTextLink from './links/LinkedInTextLink';
+import EmailTextLink from './links/EmailTextLink';
+import ResumeTextLink from './links/ResumeTextLink';
 
 const FooterBottomLinks: React.FC = () => {
   return (
