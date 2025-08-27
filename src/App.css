@@ -10,14 +10,17 @@
 }
 
 :root[data-theme="light"] {
+  --primary: black;
+  --secondary: white;
   --text-primary: white;
+  --text-secondary: black;
 }
 
 :root[data-theme="dark"] {
-  --text-primary: black;
-  --text-secondary: white;
   --primary: white;
   --secondary: black;
+  --text-primary: black;
+  --text-secondary: white;
 }
 
 /* ==========================================================================
