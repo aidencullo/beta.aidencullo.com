@@ -22,87 +22,68 @@ import DemocracyNowTextLink from "./DemocracyNowTextLink";
 import GitHubTextLink from "./GitHubTextLink";
 import StackOverflowTextLink from "./StackOverflowTextLink";
 import ResumeTextLink from "./ResumeTextLink";
+import FooterSection from "./FooterSection";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-headers">
-        <div className="footer-section">
-          <h3>
-            <ContactLink />
-          </h3>
-          <ul>
-            <li>
-              <EmailTextLink />
-            </li>
-            <li>
-              <LinkedInTextLink />
-            </li>
-            <li>
-              <XTextLink />
-            </li>
-          </ul>
-        </div>
+        <FooterSection header={<ContactLink />}>
+          <li>
+            <EmailTextLink />
+          </li>
+          <li>
+            <LinkedInTextLink />
+          </li>
+          <li>
+            <XTextLink />
+          </li>
+        </FooterSection>
         
-        <div className="footer-section">
-          <h3>
-            <SiteLink />
-          </h3>
-          <ul>
-            <li>
-              <GitHubPagesTextLink />
-            </li>
-            <li>
-              <NamecheapTextLink />
-            </li>
-            <li>
-              <ReactTextLink />
-            </li>
-            <li>
-              <ViteTextLink />
-            </li>
-          </ul>
-        </div>
+        <FooterSection header={<SiteLink />}>
+          <li>
+            <GitHubPagesTextLink />
+          </li>
+          <li>
+            <NamecheapTextLink />
+          </li>
+          <li>
+            <ReactTextLink />
+          </li>
+          <li>
+            <ViteTextLink />
+          </li>
+        </FooterSection>
         
-        <div className="footer-section">
-          <h3>
-            <ProjectsLink />
-          </h3>
-          <ul>
-            <li>
-              <PipenvTextLink />
-            </li>
-            <li>
-              <TrueorFalseTextLink />
-            </li>
-            <li>
-              <NoMailTextLink />
-            </li>
-            <li>
-              <SeatFinderTextLink />
-            </li>
-          </ul>
-        </div>
+        <FooterSection header={<ProjectsLink />}>
+          <li>
+            <PipenvTextLink />
+          </li>
+          <li>
+            <TrueorFalseTextLink />
+          </li>
+          <li>
+            <NoMailTextLink />
+          </li>
+          <li>
+            <SeatFinderTextLink />
+          </li>
+        </FooterSection>
         
-        <div className="footer-section">
-          <h3>
-            <VolunteerLink />
-          </h3>
-          <ul>
-            <li>
-              <NYCMeshTextLink />
-            </li>
-            <li>
-              <BushwickAyudaMutuaTextLink />
-            </li>
-            <li>
-              <NYCDSATextLink />
-            </li>
-            <li>
-              <DemocracyNowTextLink />
-            </li>
-          </ul>
-        </div>
+        <FooterSection header={<VolunteerLink />}>
+          <li>
+            <NYCMeshTextLink />
+          </li>
+          <li>
+            <BushwickAyudaMutuaTextLink />
+          </li>
+          <li>
+            <NYCDSATextLink />
+          </li>
+          <li>
+            <DemocracyNowTextLink />
+          </li>
+        </FooterSection>
       </div>
       
       <div className="footer-bottom">
