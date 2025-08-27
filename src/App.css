@@ -2,13 +2,6 @@
    CSS VARIABLES & THEME CONFIGURATION
    ========================================================================== */
 
-:root {
-  --primary: black;
-  --secondary: white;
-  --text-primary: white;
-  --text-secondary: black;
-}
-
 :root[data-theme="light"] {
   --primary: black;
   --secondary: white;
