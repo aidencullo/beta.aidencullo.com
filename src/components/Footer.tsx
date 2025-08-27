@@ -23,6 +23,7 @@ import GitHubTextLink from "./GitHubTextLink";
 import StackOverflowTextLink from "./StackOverflowTextLink";
 import ResumeTextLink from "./ResumeTextLink";
 import FooterSection from "./FooterSection";
+import Copyright from "./Copyright";
 
 const Footer = () => {
   return (
@@ -98,11 +99,7 @@ const Footer = () => {
           {" "}&nbsp;{" "}
           <ResumeTextLink />
         </p>
-        <div className="footer-bottom-right">
-          <p>
-            © 2025 Aiden Cullo. All rights reserved. This site is hosted on GitHub Pages with a Namecheap domain.
-          </p>
-        </div>
+        <Copyright />
       </div>
     </footer>
   );
