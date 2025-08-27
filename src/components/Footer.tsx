@@ -26,64 +26,63 @@ import FooterSection from "./FooterSection";
 import Copyright from "./Copyright";
 
 const Footer = () => {
+
+  const contactLinks = [
+    <EmailTextLink />,
+    <LinkedInTextLink />,
+    <XTextLink />
+  ];
+
+  const siteLinks = [
+
+    <GitHubPagesTextLink />,
+    <NamecheapTextLink />,
+    <ReactTextLink />,
+    <ViteTextLink />
+  ];
+
+  const projectsLinks = [
+
+    <PipenvTextLink />,
+    <TrueorFalseTextLink />,
+    <NoMailTextLink />,
+    <SeatFinderTextLink />
+  ];
+
+  const volunteerLinks = [
+
+    <NYCMeshTextLink />,
+    <BushwickAyudaMutuaTextLink />,
+    <NYCDSATextLink />,
+    <DemocracyNowTextLink />
+  ];
+
   return (
     <footer className="footer">
       <div className="footer-headers">
         <FooterSection header={<ContactLink />}>
-          <li>
-            <EmailTextLink />
-          </li>
-          <li>
-            <LinkedInTextLink />
-          </li>
-          <li>
-            <XTextLink />
-          </li>
+        {contactLinks.map((link, index) => (
+          <li key={index}>{link}</li>
+        ))}
         </FooterSection>
         
         <FooterSection header={<SiteLink />}>
-          <li>
-            <GitHubPagesTextLink />
-          </li>
-          <li>
-            <NamecheapTextLink />
-          </li>
-          <li>
-            <ReactTextLink />
-          </li>
-          <li>
-            <ViteTextLink />
-          </li>
+          {siteLinks.map((link, index) => (
+            <li key={index}>{link}</li>
+          ))}
         </FooterSection>
+        
         
         <FooterSection header={<ProjectsLink />}>
-          <li>
-            <PipenvTextLink />
-          </li>
-          <li>
-            <TrueorFalseTextLink />
-          </li>
-          <li>
-            <NoMailTextLink />
-          </li>
-          <li>
-            <SeatFinderTextLink />
-          </li>
-        </FooterSection>
+          {projectsLinks.map((link, index) => (
+            <li key={index}>{link}</li>
+          ))}
+        </FooterSection>   
         
         <FooterSection header={<VolunteerLink />}>
-          <li>
-            <NYCMeshTextLink />
-          </li>
-          <li>
-            <BushwickAyudaMutuaTextLink />
-          </li>
-          <li>
-            <NYCDSATextLink />
-          </li>
-          <li>
-            <DemocracyNowTextLink />
-          </li>
+          {volunteerLinks.map((link, index) => (
+            <li key={index}>{link}</li>
+          ))}
         </FooterSection>
       </div>
       
