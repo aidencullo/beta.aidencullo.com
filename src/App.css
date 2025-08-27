@@ -1,3 +1,7 @@
+/* ==========================================================================
+   CSS VARIABLES & THEME CONFIGURATION
+   ========================================================================== */
+
 :root {
   --primary: black;
   --secondary: white;
@@ -6,13 +10,24 @@
 }
 
 :root[data-theme="light"] {
-    --text-primary: white
+  --text-primary: white;
 }
 
 :root[data-theme="dark"] {
-    --text-primary: black;
+  --text-primary: black;
 }
 
+/* ==========================================================================
+   GLOBAL STYLES & RESETS
+   ========================================================================== */
+
+button, a { 
+  color: inherit; 
+}
+
+/* ==========================================================================
+   MAIN APP LAYOUT
+   ========================================================================== */
 
 .app {
   display: flex;
@@ -27,6 +42,10 @@
   top: 0;
   left: 0;
 }
+
+/* ==========================================================================
+   HEADER COMPONENT
+   ========================================================================== */
 
 .header {
   height: 80px;
@@ -52,6 +71,7 @@
   width: 100%;
 }
 
+/* Header Logo & Favicon */
 .header-favicon {
   width: 40px;
   height: 40px;
@@ -64,18 +84,6 @@
 .header-favicon img {
   width: 100%;
   height: 100%;
-}
-
-.header-me-link {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 1.1rem;
-  text-decoration: none;
-  transition: opacity 0.2s ease;
-  margin-left: 20px;
-}
-
-.header-me-link:hover {
-  opacity: 0.8;
 }
 
 .header-logo {
@@ -94,6 +102,7 @@
   filter: brightness(0) invert(1);
 }
 
+/* Header Text Elements */
 .header-name {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.5rem;
@@ -115,6 +124,22 @@
   letter-spacing: 0.05em;
 }
 
+.header-me-link {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+  margin-left: 20px;
+}
+
+.header-me-link:hover {
+  opacity: 0.8;
+}
+
+/* ==========================================================================
+   MAIN BODY CONTENT
+   ========================================================================== */
+
 .body {
   color: var(--text-secondary);
   background-color: var(--secondary);
@@ -129,6 +154,10 @@
   position: relative;
   justify-content: flex-start;
 }
+
+/* ==========================================================================
+   ANIMATIONS & KEYFRAMES
+   ========================================================================== */
 
 @keyframes fadeInUp {
   from {
@@ -150,6 +179,10 @@
   }
 }
 
+/* ==========================================================================
+   WELCOME SECTION
+   ========================================================================== */
+
 .welcome-container {
   text-align: center;
   position: absolute;
@@ -167,6 +200,21 @@
   opacity: 1;
   transform: translate(-50%, -50%);
 }
+
+.name {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 3.5rem;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+}
+
+/* ==========================================================================
+   BIO SECTION
+   ========================================================================== */
 
 .bio-container {
   text-align: center;
@@ -219,18 +267,9 @@
   justify-content: center;
 }
 
-.name {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 3.5rem;
-  font-weight: 300;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  letter-spacing: -0.02em;
-  margin-bottom: 0.5rem;
-}
-
-
+/* ==========================================================================
+   LINK COMPONENTS
+   ========================================================================== */
 
 .link {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
@@ -249,9 +288,19 @@
 .link-icon {
   font-size: 2.5rem;
   color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
 }
 
-button, a { color: inherit}
+.link:hover .link-icon {
+  transform: scale(1.1);
+}
+
+/* ==========================================================================
+   FOOTER COMPONENT
+   ========================================================================== */
 
 .footer {
   color: var(--text-primary);
@@ -347,21 +396,10 @@ button, a { color: inherit}
   text-align: center;
 }
 
+/* ==========================================================================
+   RESPONSIVE DESIGN
+   ========================================================================== */
 
-
-/* Enhanced Link Icon Styles */
-.link-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: transform 0.2s ease;
-}
-
-.link:hover .link-icon {
-  transform: scale(1.1);
-}
-
-/* Responsive adjustments */
 @media (max-width: 768px) {
   .icon-showcase {
     margin: 1rem;
