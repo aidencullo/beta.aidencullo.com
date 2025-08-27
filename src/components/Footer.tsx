@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import InternalLink from "./InternalLink";
+import Link from "./Link";
 
 const Footer = () => {
   return (
@@ -14,29 +15,29 @@ const Footer = () => {
           </h3>
           <ul>
             <li>
-              <a href="mailto:aidencullo@gmail.com" className="header-me-link">
+              <Link href="mailto:aidencullo@gmail.com" title="Email" className="header-me-link">
                 Email
-              </a>
+              </Link>
             </li>
             <li>
-              <a 
+              <Link 
                 href="https://www.linkedin.com/in/aidencullo/" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+                title="LinkedIn"
+                isExternal={true}
                 className="header-me-link"
               >
                 LinkedIn
-              </a>
+              </Link>
             </li>
             <li>
-              <a 
+              <Link 
                 href="https://x.com/CuloEgan" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+                title="X"
+                isExternal={true}
                 className="header-me-link"
               >
                 X
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -49,44 +50,44 @@ const Footer = () => {
           </h3>
           <ul>
             <li>
-              <a 
+              <Link 
                 href="https://pages.github.com/" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+                title="GitHub Pages"
+                isExternal={true}
                 className="header-me-link"
               >
                 GitHub Pages
-              </a>
+              </Link>
             </li>
             <li>
-              <a 
+              <Link 
                 href="https://www.namecheap.com/" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+                title="Namecheap"
+                isExternal={true}
                 className="header-me-link"
               >
                 Namecheap
-              </a>
+              </Link>
             </li>
             <li>
-              <a 
+              <Link 
                 href="https://react.dev/" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+                title="React"
+                isExternal={true}
                 className="header-me-link"
               >
                 React
-              </a>
+              </Link>
             </li>
             <li>
-              <a 
+              <Link 
                 href="https://vitejs.dev/" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+                title="Vite"
+                isExternal={true}
                 className="header-me-link"
               >
                 Vite
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -99,44 +100,44 @@ const Footer = () => {
           </h3>
           <ul>
             <li>
-              <a 
+              <Link 
                 href="https://github.com/pypa/pipenv" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+                title="Pipenv"
+                isExternal={true}
                 className="header-me-link"
               >
                 Pipenv
-              </a>
+              </Link>
             </li>
             <li>
-              <a 
+              <Link 
                 href="https://github.com/aidencullo/trueorfalse.online" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+                title="TrueorFalse"
+                isExternal={true}
                 className="header-me-link"
               >
                 TrueorFalse
-              </a>
+              </Link>
             </li>
             <li>
-              <a 
+              <Link 
                 href="https://github.com/aidencullo/nomail" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+                title="NoMail"
+                isExternal={true}
                 className="header-me-link"
               >
                 NoMail
-              </a>
+              </Link>
             </li>
             <li>
-              <a 
+              <Link 
                 href="https://github.com/aidencullo/seatFinder" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+                title="SeatFinder"
+                isExternal={true}
                 className="header-me-link"
               >
                 SeatFinder
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -149,44 +150,44 @@ const Footer = () => {
           </h3>
           <ul>
             <li>
-              <a 
+              <Link 
                 href="https://www.nycmesh.net/" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+                title="NYC Mesh"
+                isExternal={true}
                 className="header-me-link"
               >
                 NYC Mesh
-              </a>
+              </Link>
             </li>
             <li>
-              <a 
+              <Link 
                 href="https://bushwickayudamutua.com/" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+                title="Bushwick Ayuda Mutua"
+                isExternal={true}
                 className="header-me-link"
               >
                 Bushwick Ayuda Mutua
-              </a>
+              </Link>
             </li>
             <li>
-              <a 
+              <Link 
                 href="https://socialists.nyc/" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+                title="NYC DSA"
+                isExternal={true}
                 className="header-me-link"
               >
                 NYC DSA
-              </a>
+              </Link>
             </li>
             <li>
-              <a 
+              <Link 
                 href="https://www.democracynow.org/2025/8/6/headlines/advocates_launch_protest_camp_outside_new_york_city_immigration_offices" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+                title="Democracy Now!"
+                isExternal={true}
                 className="header-me-link"
               >
                 Democracy Now!
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -194,48 +195,49 @@ const Footer = () => {
       
       <div className="footer-bottom">
         <p>
-          <a 
+          <Link 
             href="https://github.com/aidencullo" 
-            target="_blank" 
-            rel="noopener noreferrer" 
+            title="GitHub"
+            isExternal={true}
             className="header-me-link"
           >
             GitHub
-          </a>
+          </Link>
           {" "}&nbsp;{" "}
-          <a 
+          <Link 
             href="https://stackoverflow.com/users/1234567/aidencullo" 
-            target="_blank" 
-            rel="noopener noreferrer" 
+            title="Stack Overflow"
+            isExternal={true}
             className="header-me-link"
           >
             Stack Overflow
-          </a>
+          </Link>
           {" "}&nbsp;{" "}
-          <a 
+          <Link 
             href="https://www.linkedin.com/in/aidencullo" 
-            target="_blank" 
-            rel="noopener noreferrer" 
+            title="LinkedIn"
+            isExternal={true}
             className="header-me-link"
           >
             LinkedIn
-          </a>
+          </Link>
           {" "}&nbsp;{" "}
-          <a 
+          <Link 
             href="mailto:aidencullo@gmail.com" 
+            title="Email"
             className="header-me-link"
           >
             Email
-          </a>
+          </Link>
           {" "}&nbsp;{" "}
-          <a 
+          <Link 
             href="/resume.pdf" 
-            target="_blank" 
-            rel="noopener noreferrer" 
+            title="Resume"
+            isExternal={true}
             className="header-me-link"
           >
             Resume
-          </a>
+          </Link>
         </p>
         <div className="footer-bottom-right">
           <p>
