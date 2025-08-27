@@ -1,3 +1,7 @@
+/* ==========================================================================
+   FOOTER COMPONENT STYLES
+   ========================================================================== */
+
 .footer {
   padding: 40px 60px;
   font-family: Arial, sans-serif;
@@ -8,6 +12,8 @@
   flex-direction: column;
   min-height: fit-content;
   overflow: hidden;
+  color: var(--text-primary);
+  background-color: var(--primary);
 }
 
 .footer-headers {
@@ -16,26 +22,6 @@
   padding: 20px 0;
   gap: 15%;
   width: 100%;
-}
-
-.footer-header {
-  text-align: center;
-}
-
-.footer-header h3 {
-  color: var(--text-primary);
-  font-size: 24px;
-  margin: 0;
-  font-weight: 600;
-}
-
-.footer-sections {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 15px;
-  width: 100%;
-  gap: 15px;
-  flex-shrink: 0;
 }
 
 .footer-section {
@@ -62,22 +48,10 @@
 
 .footer-section ul li a {
   text-decoration: none;
-}
-
-.footer .header-me-link {
-  font-size: 13px !important;
-}
-
-.footer-section h3 .header-me-link {
-  text-transform: uppercase !important;
-}
-
-.footer-bottom .header-me-link {
-  font-size: 11px !important;
+  transition: color 0.2s ease;
 }
 
 .footer-section ul li a:hover {
-  text-decoration: none;
   color: #ffffff;
 }
 
@@ -95,9 +69,22 @@
 
 .footer-bottom a {
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 .footer-bottom a:hover {
-  text-decoration: none;
   color: #ffffff;
+}
+
+/* Footer link overrides */
+.footer .header-me-link {
+  font-size: 13px !important;
+}
+
+.footer-section h3 .header-me-link {
+  text-transform: uppercase !important;
+}
+
+.footer-bottom .header-me-link {
+  font-size: 11px !important;
 }
