@@ -1,45 +1,14 @@
 import React from "react";
 import "./Footer.css";
-import ContactLink from "./ContactLink";
-import ContactLinks from "./ContactLinks";
-import SiteLinks from "./SiteLinks";
-import ProjectLinks from "./ProjectLinks";
-import VolunteerLinks from "./VolunteerLinks";
-import SiteLink from "./SiteLink";
-import ProjectsLink from "./ProjectsLink";
-import VolunteerLink from "./VolunteerLink";
-
-import FooterBottomLinks from "./FooterBottomLinks";
-import FooterSection from "./FooterSection";
-import Copyright from "./Copyright";
+import FooterHeaders from "./FooterHeaders";
+import FooterBottom from "./FooterBottom";
 
 const Footer = () => {
 
   return (
     <footer className="footer">
-      <div className="footer-headers">
-        <FooterSection header={<ContactLink />}>
-          <ContactLinks />
-        </FooterSection>
-        
-        <FooterSection header={<SiteLink />}>
-          <SiteLinks />
-        </FooterSection>
-        
-        
-        <FooterSection header={<ProjectsLink />}>
-          <ProjectLinks />
-        </FooterSection>   
-        
-        <FooterSection header={<VolunteerLink />}>
-          <VolunteerLinks />
-        </FooterSection>
-      </div>
-      
-      <div className="footer-bottom">
-        <FooterBottomLinks />
-        <Copyright />
-      </div>
+      <FooterHeaders />
+      <FooterBottom />
     </footer>
   );
 };
