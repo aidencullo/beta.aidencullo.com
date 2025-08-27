@@ -8,11 +8,8 @@ import VolunteerLinks from "./VolunteerLinks";
 import SiteLink from "./SiteLink";
 import ProjectsLink from "./ProjectsLink";
 import VolunteerLink from "./VolunteerLink";
-import GitHubTextLink from "./GitHubTextLink";
-import StackOverflowTextLink from "./StackOverflowTextLink";
-import ResumeTextLink from "./ResumeTextLink";
-import LinkedInTextLink from "./LinkedInTextLink";
-import EmailTextLink from "./EmailTextLink";
+
+import FooterBottomLinks from "./FooterBottomLinks";
 import FooterSection from "./FooterSection";
 import Copyright from "./Copyright";
 
@@ -40,13 +37,7 @@ const Footer = () => {
       </div>
       
       <div className="footer-bottom">
-        <p>
-          <GitHubTextLink />
-          <StackOverflowTextLink />
-          <LinkedInTextLink />
-          <EmailTextLink />
-          <ResumeTextLink />
-        </p>
+        <FooterBottomLinks />
         <Copyright />
       </div>
     </footer>
