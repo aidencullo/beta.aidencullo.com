@@ -29,6 +29,8 @@ button, a {
    ========================================================================== */
 
 .app {
+  color: var(--text-secondary);
+  background-color: var(--secondary);
   display: flex;
   flex-direction: column;
   justify-content: center;
