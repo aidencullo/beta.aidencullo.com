@@ -1,15 +1,8 @@
 :root {
-  --primary-dark: navy;
-  --primary: darkblue;
-  --secondary: midnightblue;
-  --accent: coral;
-  --accent-light: lightsalmon;
+  --primary: black;
+  --secondary: white;
   --text-primary: white;
-  --text-secondary: lightgray;
-  --background: black;
-  --surface: navy;
-  --surface-light: darkslateblue;
-  --border: slateblue;
+  --text-secondary: black;
 }
 
 :root[data-theme="light"] {
@@ -45,6 +38,7 @@
   align-items: center;
   justify-content: flex-start;
   background-color: var(--primary);
+  color: var(--text-primary);
   z-index: 1000;
 }
 
@@ -75,7 +69,6 @@
 .header-me-link {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.1rem;
-  color: var(--text-primary);
   text-decoration: none;
   transition: opacity 0.2s ease;
   margin-left: 20px;
@@ -123,6 +116,8 @@
 }
 
 .body {
+  color: var(--text-secondary);
+  background-color: var(--secondary);
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -213,7 +208,6 @@
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.2rem;
   line-height: 1.6;
-  color: var(--text-primary);
   max-width: 600px;
 }
 
@@ -231,7 +225,6 @@
   font-weight: 300;
   margin: 0;
   padding: 0;
-  color: var(--text-primary);
   text-align: center;
   letter-spacing: -0.02em;
   margin-bottom: 0.5rem;
@@ -242,7 +235,6 @@
 .link {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.1rem;
-  color: var(--accent);
   text-decoration: none;
   transition: color 0.2s ease;
   display: flex;
@@ -256,19 +248,21 @@
 
 .link-icon {
   font-size: 2.5rem;
-  color: var(--text-primary);
+  color: var(--text-secondary);
 }
 
-
+.footer a { color: inherit; }
+.header a { color: inherit; }
 
 .footer {
+  color: var(--text-primary);
+  background-color: var(--primary);
   height: 300px;
   width: 100%;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--primary);
   z-index: 1000;
 }
 
@@ -295,7 +289,6 @@
 }
 
 .footer-header {
-  color: #ffffff;
   font-size: 13px;
   font-weight: 700;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Liberation Sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -311,7 +304,6 @@
 }
 
 .footer-link {
-  color: #b3b3b3;
   text-decoration: none;
   font-size: 13px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Liberation Sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
