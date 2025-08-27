@@ -15,7 +15,7 @@ const Footer = () => {
           </h3>
           <ul>
             <li>
-              <Link href="mailto:aidencullo@gmail.com" title="Email" className="header-me-link">
+              <Link href="mailto:aidencullo@gmail.com" title="Email">
                 Email
               </Link>
             </li>
@@ -24,7 +24,6 @@ const Footer = () => {
                 href="https://www.linkedin.com/in/aidencullo/" 
                 title="LinkedIn"
                 isExternal={true}
-                className="header-me-link"
               >
                 LinkedIn
               </Link>
@@ -34,7 +33,6 @@ const Footer = () => {
                 href="https://x.com/CuloEgan" 
                 title="X"
                 isExternal={true}
-                className="header-me-link"
               >
                 X
               </Link>
@@ -54,7 +52,6 @@ const Footer = () => {
                 href="https://pages.github.com/" 
                 title="GitHub Pages"
                 isExternal={true}
-                className="header-me-link"
               >
                 GitHub Pages
               </Link>
@@ -64,7 +61,6 @@ const Footer = () => {
                 href="https://www.namecheap.com/" 
                 title="Namecheap"
                 isExternal={true}
-                className="header-me-link"
               >
                 Namecheap
               </Link>
@@ -74,7 +70,6 @@ const Footer = () => {
                 href="https://react.dev/" 
                 title="React"
                 isExternal={true}
-                className="header-me-link"
               >
                 React
               </Link>
@@ -84,7 +79,6 @@ const Footer = () => {
                 href="https://vitejs.dev/" 
                 title="Vite"
                 isExternal={true}
-                className="header-me-link"
               >
                 Vite
               </Link>
@@ -104,7 +98,6 @@ const Footer = () => {
                 href="https://github.com/pypa/pipenv" 
                 title="Pipenv"
                 isExternal={true}
-                className="header-me-link"
               >
                 Pipenv
               </Link>
@@ -114,7 +107,6 @@ const Footer = () => {
                 href="https://github.com/aidencullo/trueorfalse.online" 
                 title="TrueorFalse"
                 isExternal={true}
-                className="header-me-link"
               >
                 TrueorFalse
               </Link>
@@ -124,7 +116,6 @@ const Footer = () => {
                 href="https://github.com/aidencullo/nomail" 
                 title="NoMail"
                 isExternal={true}
-                className="header-me-link"
               >
                 NoMail
               </Link>
@@ -134,7 +125,6 @@ const Footer = () => {
                 href="https://github.com/aidencullo/seatFinder" 
                 title="SeatFinder"
                 isExternal={true}
-                className="header-me-link"
               >
                 SeatFinder
               </Link>
@@ -154,7 +144,6 @@ const Footer = () => {
                 href="https://www.nycmesh.net/" 
                 title="NYC Mesh"
                 isExternal={true}
-                className="header-me-link"
               >
                 NYC Mesh
               </Link>
@@ -164,7 +153,6 @@ const Footer = () => {
                 href="https://bushwickayudamutua.com/" 
                 title="Bushwick Ayuda Mutua"
                 isExternal={true}
-                className="header-me-link"
               >
                 Bushwick Ayuda Mutua
               </Link>
@@ -174,7 +162,6 @@ const Footer = () => {
                 href="https://socialists.nyc/" 
                 title="NYC DSA"
                 isExternal={true}
-                className="header-me-link"
               >
                 NYC DSA
               </Link>
@@ -184,7 +171,6 @@ const Footer = () => {
                 href="https://www.democracynow.org/2025/8/6/headlines/advocates_launch_protest_camp_outside_new_york_city_immigration_offices" 
                 title="Democracy Now!"
                 isExternal={true}
-                className="header-me-link"
               >
                 Democracy Now!
               </Link>
@@ -199,7 +185,6 @@ const Footer = () => {
             href="https://github.com/aidencullo" 
             title="GitHub"
             isExternal={true}
-            className="header-me-link"
           >
             GitHub
           </Link>
@@ -208,7 +193,6 @@ const Footer = () => {
             href="https://stackoverflow.com/users/1234567/aidencullo" 
             title="Stack Overflow"
             isExternal={true}
-            className="header-me-link"
           >
             Stack Overflow
           </Link>
@@ -217,7 +201,6 @@ const Footer = () => {
             href="https://www.linkedin.com/in/aidencullo" 
             title="LinkedIn"
             isExternal={true}
-            className="header-me-link"
           >
             LinkedIn
           </Link>
@@ -225,7 +208,6 @@ const Footer = () => {
           <Link 
             href="mailto:aidencullo@gmail.com" 
             title="Email"
-            className="header-me-link"
           >
             Email
           </Link>
@@ -234,7 +216,6 @@ const Footer = () => {
             href="/resume.pdf" 
             title="Resume"
             isExternal={true}
-            className="header-me-link"
           >
             Resume
           </Link>

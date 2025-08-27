@@ -13,7 +13,7 @@ const Link: React.FC<LinkProps> = ({
   title, 
   children, 
   isExternal = false,
-  className = "link"
+  className = "header-me-link"
 }) => {
   return (
     <a 
