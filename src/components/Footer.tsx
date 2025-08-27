@@ -90,13 +90,9 @@ const Footer = () => {
       <div className="footer-bottom">
         <p>
           <GitHubTextLink />
-          {" "}&nbsp;{" "}
           <StackOverflowTextLink />
-          {" "}&nbsp;{" "}
           <LinkedInTextLink />
-          {" "}&nbsp;{" "}
           <EmailTextLink />
-          {" "}&nbsp;{" "}
           <ResumeTextLink />
         </p>
         <Copyright />
