@@ -51,10 +51,6 @@
   transition: color 0.2s ease;
 }
 
-.footer-section ul li a:hover {
-  color: #ffffff;
-}
-
 .footer-bottom {
   border-top: 1px solid #3b4045;
   padding-top: 15px;
@@ -76,11 +72,6 @@
   text-decoration: none;
   transition: color 0.2s ease;
 }
-
-.footer-bottom a:hover {
-  color: #ffffff;
-}
-
 /* Footer link overrides */
 .footer .header-me-link {
   font-size: 13px !important;
