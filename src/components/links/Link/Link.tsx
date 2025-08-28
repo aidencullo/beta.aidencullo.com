@@ -15,13 +15,16 @@ const Link: React.FC<LinkProps> = ({
   isExternal = false,
   className = "header-me-link"
 }) => {
+  const target = isExternal ? "_blank" : undefined
+  const rel = isExternal ? "noopener noreferrer" : undefined
+  
   return (
     <a 
       href={href} 
-      target={isExternal ? "_blank" : "_self"}
-      rel={isExternal ? "noopener noreferrer" : ""}
-      className={className}
       title={title}
+      target={target}
+      rel={rel}
+      className={className}
     >
       {children}
     </a>

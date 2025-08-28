@@ -1,6 +1,6 @@
 import React from 'react'
-import InternalLink from '../../links/InternalLink'
-import ThemeButton from '../ThemeButton'
+import InternalLink from '../../links/InternalLink/InternalLink'
+import ThemeButton from '../ThemeButton/ThemeButton'
 import './Header.css'
 import { useLanguageCustom } from '../../../hooks/useLanguage'
 

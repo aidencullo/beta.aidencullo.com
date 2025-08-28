@@ -1,14 +1,14 @@
 import React from 'react'
-import Link from './Link'
+import Link from '../Link/Link'
 
-interface ExternalLinkProps {
+interface InternalLinkProps {
   href: string
   title: string
   children: React.ReactNode
   className?: string
 }
 
-const ExternalLink: React.FC<ExternalLinkProps> = ({ 
+const InternalLink: React.FC<InternalLinkProps> = ({ 
   href, 
   title, 
   children, 
@@ -18,7 +18,7 @@ const ExternalLink: React.FC<ExternalLinkProps> = ({
     <Link 
       href={href} 
       title={title} 
-      isExternal={true}
+      isExternal={false}
       className={className}
     >
       {children}
@@ -26,4 +26,4 @@ const ExternalLink: React.FC<ExternalLinkProps> = ({
   )
 }
 
-export default ExternalLink
+export default InternalLink
