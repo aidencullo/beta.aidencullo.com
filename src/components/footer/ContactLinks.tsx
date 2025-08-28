@@ -1,7 +1,7 @@
 import React from 'react';
-import EmailTextLink from './links/EmailTextLink';
-import LinkedInTextLink from './links/LinkedInTextLink';
-import XTextLink from './links/XTextLink';
+import EmailTextLink from '../links/EmailTextLink';
+import LinkedInTextLink from '../links/LinkedInTextLink';
+import XTextLink from '../links/XTextLink';
 
 const ContactLinks: React.FC = () => {
   return (
