@@ -1,18 +1,14 @@
 import React from 'react'
+import { FaGithub } from 'react-icons/fa'
 import ExternalLink from './ExternalLink'
 
-interface GitHubLinkProps {
-  children: React.ReactNode
-  className?: string
-}
-
-const GitHubLink: React.FC<GitHubLinkProps> = ({ children, className }) => {
+const GitHubLink: React.FC = () => {
   const url = "https://github.com/aidencullo"
   const title = "GitHub"
   
   return (
-    <ExternalLink href={url} title={title} className={className}>
-      {children}
+    <ExternalLink href={url} title={title}>
+      <span className="link-icon"><FaGithub /></span>
     </ExternalLink>
   )
 }

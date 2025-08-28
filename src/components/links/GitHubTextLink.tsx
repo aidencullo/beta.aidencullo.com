@@ -1,11 +1,14 @@
 import React from 'react'
-import GitHubLink from './GitHubLink'
+import Link from './Link'
 
 const GitHubTextLink: React.FC = () => {
+  const url = "https://github.com/aidencullo"
+  const title = "GitHub"
+  
   return (
-    <GitHubLink>
+    <Link href={url} title={title} isExternal={true}>
       GitHub
-    </GitHubLink>
+    </Link>
   )
 }
 

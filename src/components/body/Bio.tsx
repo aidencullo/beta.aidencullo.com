@@ -1,6 +1,6 @@
 import React from 'react'
 import { useScrollAnimation } from '../../hooks/useScrollAnimation'
-import GitHubIconLink from '../links/GitHubIconLink'
+import GitHubLink from '../links/GitHubLink'
 import StackOverflowLink from '../links/StackOverflowLink'
 import LinkedInLink from '../links/LinkedInLink'
 import EmailLink from '../links/EmailLink'
@@ -21,7 +21,7 @@ const Bio: React.FC = () => {
       </div>
       
       <div className="bio-links">
-        <GitHubIconLink />
+        <GitHubLink />
         <StackOverflowLink />
         <LinkedInLink />
         <EmailLink />

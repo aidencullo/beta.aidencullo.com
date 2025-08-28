@@ -1,19 +1,15 @@
 import React from 'react'
+import { FaEnvelope } from 'react-icons/fa'
 import ExternalLink from './ExternalLink'
 
-interface EmailLinkProps {
-  children: React.ReactNode
-  className?: string
-}
-
-const EmailLink: React.FC<EmailLinkProps> = ({ children, className }) => {
+const EmailLink: React.FC = () => {
   const email = "aidencullo@gmail.com"
   const title = "Email"
   const url = `mailto:${email}`
   
   return (
-    <ExternalLink href={url} title={title} className={className}>
-      {children}
+    <ExternalLink href={url} title={title}>
+      <span className="link-icon"><FaEnvelope /></span>
     </ExternalLink>
   )
 }
