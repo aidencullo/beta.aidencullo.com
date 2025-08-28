@@ -29,6 +29,15 @@ a:hover {
   opacity: 0.8;
 }
 
+/* GitHub link hover effect */
+a[href*="github.com"] .link-icon {
+  transition: transform 0.2s ease;
+}
+
+a[href*="github.com"]:hover .link-icon {
+  transform: scale(1.1);
+}
+
 /* ==========================================================================
    MAIN APP LAYOUT
    ========================================================================== */
