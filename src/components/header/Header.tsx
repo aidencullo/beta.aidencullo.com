@@ -2,8 +2,10 @@ import React from 'react'
 import InternalLink from '../links/InternalLink'
 import ThemeButton from './ThemeButton'
 import './Header.css'
+import { useLanguageCustom } from '../../hooks/useLanguage'
 
 const Header: React.FC = () => {
+  const { setLanguageCustom } = useLanguageCustom()
   return (
     <header className="header">
       <div className="header-content">
@@ -12,6 +14,9 @@ const Header: React.FC = () => {
           <InternalLink href="#bio" title="About" className="header-me-link">about</InternalLink>
         </div>
         <ThemeButton />
+        here
+        <button onClick={() => setLanguageCustom("es")}>es</button>
+        <button onClick={() => setLanguageCustom("en")}>en</button>
       </div>
     </header>
   )
