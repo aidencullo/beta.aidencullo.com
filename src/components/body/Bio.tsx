@@ -1,11 +1,11 @@
 import React from 'react'
 import { useScrollAnimation } from '../../hooks/useScrollAnimation'
 import GitHubIconLink from '../links/GitHubIconLink'
-import StackOverflowLink from '../links/StackOverflowLink'
-import LinkedInLink from '../links/LinkedInLink'
-import EmailLink from '../links/EmailLink'
-import ResumeLink from '../links/ResumeLink'
-import BlogLink from '../links/BlogLink'
+import StackOverflowIconLink from '../links/StackOverflowIconLink'
+import LinkedInIconLink from '../links/LinkedInIconLink'
+import EmailIconLink from '../links/EmailIconLink'
+import ResumeIconLink from '../links/ResumeIconLink'
+import BlogIconLink from '../links/BlogIconLink'
 
 const Bio: React.FC = () => {
   const bioRef = useScrollAnimation()
@@ -22,11 +22,11 @@ const Bio: React.FC = () => {
       
       <div className="bio-links">
         <GitHubIconLink />
-        <StackOverflowLink />
-        <LinkedInLink />
-        <EmailLink />
-        <ResumeLink />
-        <BlogLink />
+        <StackOverflowIconLink />
+        <LinkedInIconLink />
+        <EmailIconLink />
+        <ResumeIconLink />
+        <BlogIconLink />
       </div>
     </div>
   )

@@ -1,14 +1,18 @@
 import React from 'react'
-import { FaLinkedin } from 'react-icons/fa'
 import ExternalLink from './ExternalLink'
 
-const LinkedInLink: React.FC = () => {
+interface LinkedInLinkProps {
+  children: React.ReactNode
+  className?: string
+}
+
+const LinkedInLink: React.FC<LinkedInLinkProps> = ({ children, className }) => {
   const url = "https://www.linkedin.com/in/aidencullo"
   const title = "LinkedIn"
   
   return (
-    <ExternalLink href={url} title={title}>
-      <span className="link-icon"><FaLinkedin /></span>
+    <ExternalLink href={url} title={title} className={className}>
+      {children}
     </ExternalLink>
   )
 }

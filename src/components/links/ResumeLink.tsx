@@ -1,14 +1,18 @@
 import React from 'react'
-import { FaFileAlt } from 'react-icons/fa'
 import ExternalLink from './ExternalLink'
 
-const ResumeLink: React.FC = () => {
+interface ResumeLinkProps {
+  children: React.ReactNode
+  className?: string
+}
+
+const ResumeLink: React.FC<ResumeLinkProps> = ({ children, className }) => {
   const url = "/resume.pdf"
   const title = "Resume"
   
   return (
-    <ExternalLink href={url} title={title}>
-      <span className="link-icon"><FaFileAlt /></span>
+    <ExternalLink href={url} title={title} className={className}>
+      {children}
     </ExternalLink>
   )
 }
