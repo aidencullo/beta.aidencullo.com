@@ -1,7 +1,3 @@
-/* ==========================================================================
-   MAIN BODY CONTENT
-   ========================================================================== */
-
 .body {
   color: var(--text-secondary);
   background-color: var(--secondary);
@@ -16,10 +12,6 @@
   position: relative;
   justify-content: flex-start;
 }
-
-/* ==========================================================================
-   WELCOME SECTION
-   ========================================================================== */
 
 .welcome-container {
   text-align: center;
@@ -49,10 +41,6 @@
   letter-spacing: -0.02em;
   margin-bottom: 0.5rem;
 }
-
-/* ==========================================================================
-   BIO SECTION
-   ========================================================================== */
 
 .bio-container {
   text-align: center;
@@ -104,3 +92,5 @@
   align-items: center;
   justify-content: center;
 }
+
+
