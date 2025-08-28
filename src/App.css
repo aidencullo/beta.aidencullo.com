@@ -77,50 +77,6 @@ a:hover {
   width: 100%;
 }
 
-/* Header Logo & Favicon */
-.header-favicon {
-  width: 40px;
-  height: 40px;
-  margin-right: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.header-favicon img {
-  width: 100%;
-  height: 100%;
-}
-
-.header-logo {
-  display: inline-block;
-  text-decoration: none;
-}
-
-.header-icon {
-  width: 40px;
-  height: 40px;
-  filter: brightness(0) invert(1);
-}
-
-/* Header Text Elements */
-.header-name {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 1.5rem;
-  font-weight: 500;
-  color: var(--text-primary);
-  text-decoration: none;
-  transition: opacity 0.2s ease;
-}
-
-.header-text {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 1.2rem;
-  font-weight: 400;
-  color: var(--text-primary);
-  letter-spacing: 0.05em;
-}
-
 .header-me-link {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.1rem;
@@ -263,16 +219,6 @@ a:hover {
 /* ==========================================================================
    LINK COMPONENTS
    ========================================================================== */
-
-.link {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 1.1rem;
-  text-decoration: none;
-  transition: color 0.2s ease;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
 
 .link-icon {
   font-size: 2.5rem;
