@@ -1,5 +1,5 @@
 import React from 'react'
-import { useScrollAnimation } from '../hooks/useScrollAnimation'
+import { useScrollAnimation } from '../../hooks/useScrollAnimation'
 import GitHubLink from '../links/GitHubLink'
 import StackOverflowLink from '../links/StackOverflowLink'
 import LinkedInLink from '../links/LinkedInLink'
