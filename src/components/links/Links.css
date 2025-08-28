@@ -1,0 +1,12 @@
+/* ==========================================================================
+   LINK COMPONENTS
+   ========================================================================== */
+
+.link-icon {
+  font-size: 2.5rem;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
