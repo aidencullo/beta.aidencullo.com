@@ -1,0 +1,27 @@
+.welcome-container {
+  text-align: center;
+  position: absolute;
+  top: calc(50vh - 120px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 100%;
+  opacity: 0;
+  transform: translate(-50%, -30%);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.welcome-container.fade-in {
+  opacity: 1;
+  transform: translate(-50%, -50%);
+}
+
+.name {
+  font-size: 3.5rem;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+}
