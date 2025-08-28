@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from './Link'
+import Link from './Link/Link'
 
 const GitHubPagesTextLink: React.FC = () => {
   const url = "https://pages.github.com/"

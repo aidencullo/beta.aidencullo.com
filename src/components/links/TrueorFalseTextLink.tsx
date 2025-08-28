@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from './Link'
+import Link from './Link/Link'
 
 const TrueorFalseTextLink: React.FC = () => {
   const url = "https://github.com/aidencullo/trueorfalse.online"

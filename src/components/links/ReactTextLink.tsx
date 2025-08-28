@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from './Link'
+import Link from './Link/Link'
 
 const ReactTextLink: React.FC = () => {
   const url = "https://react.dev/"
