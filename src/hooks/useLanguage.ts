@@ -9,9 +9,9 @@ export function useLanguage() {
   const { language, setLanguage } = context
 
   useEffect(() => {
-    const language = localStorage.getItem('language')
-    if (language) {
-      setLanguage(language as Language)
+    const savedLanguage = localStorage.getItem('language')
+    if (savedLanguage) {
+      setLanguage(savedLanguage as Language)
     }
   }, [])
 
@@ -21,9 +21,5 @@ export function useLanguage() {
     }
   }, [language])
   
-  const setLanguageCustom = (language: Language) => {
-    setLanguage(language)
-  }
-  
-  return { language, setLanguageCustom }
+  return { language, setLanguage }
 }

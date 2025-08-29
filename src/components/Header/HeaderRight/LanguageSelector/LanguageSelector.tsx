@@ -3,14 +3,14 @@ import './LanguageSelector.css'
 import { useLanguage } from '@hooks/useLanguage'
 
 const LanguageSelector: React.FC = () => {
-  const { language, setLanguageCustom } = useLanguage()
+  const { language, setLanguage } = useLanguage()
   const englishCode = "english"
   const spanishCode = "español"
   const frenchCode = "français"
 
   const changeLanguage = () => {
     const nextLanguage = getNextLanguage()
-    setLanguageCustom(nextLanguage)
+    setLanguage(nextLanguage)
   }
 
   const getNextLanguage = () => {
