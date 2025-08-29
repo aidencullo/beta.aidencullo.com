@@ -11,7 +11,7 @@ const Welcome: React.FC = () => {
 
   return (
     <div ref={welcomeRef} className="welcome-container" id="welcome">
-      <h1 className="name">{language === "en" ? welcomeText : spanishWelcomeText}</h1>
+      <h1 className="name">{language === "english" ? welcomeText : spanishWelcomeText}</h1>
     </div>
   )
 }

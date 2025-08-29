@@ -3,7 +3,7 @@ import { useLanguage } from '../contexts/LanguageContext'
 export function useLanguageCustom() {
   const { language, setLanguage } = useLanguage()
 
-  const setLanguageCustom = (language: "en" | "es") => {
+  const setLanguageCustom = (language: "english" | "español") => {
     setLanguage(language)
   }
 

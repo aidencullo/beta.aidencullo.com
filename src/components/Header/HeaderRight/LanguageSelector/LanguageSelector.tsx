@@ -4,8 +4,8 @@ import { useLanguageCustom } from '@hooks/useLanguage'
 
 const LanguageSelector: React.FC = () => {
   const { language, setLanguageCustom } = useLanguageCustom()
-  const englishCode = "en"
-  const spanishCode = "es"
+  const englishCode = "english"
+  const spanishCode = "español"
 
   const changeLanguage = () => {
     setLanguageCustom(language === englishCode ? spanishCode : englishCode)
