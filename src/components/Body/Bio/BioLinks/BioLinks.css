@@ -1,14 +1,11 @@
 .bio-links {
   display: flex;
-  flex-direction: row;
   gap: 2rem;
   align-items: center;
-  justify-content: center;
 }
 
 .link-icon {
   font-size: 3rem;
-  display: inline-block;
 }
 
 .bio-links a:hover {
