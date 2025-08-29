@@ -1,13 +1,13 @@
 import React from "react";
 import "./Footer.css";
-import FooterHeaders from "../FooterHeaders/FooterHeaders";
+import FooterTop from "../FooterTop/FooterTop";
 import FooterBottom from "../FooterBottom/FooterBottom";
 
 const Footer = () => {
 
   return (
     <footer className="footer">
-      <FooterHeaders />
+      <FooterTop />
       <FooterBottom />
     </footer>
   );

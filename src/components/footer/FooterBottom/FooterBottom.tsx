@@ -1,6 +1,6 @@
 import React from 'react';
-import FooterBottomLinks from '../FooterBottomLinks/FooterBottomLinks';
-import Copyright from '../Copyright/Copyright';
+import FooterBottomLinks from './FooterBottomLinks/FooterBottomLinks';
+import Copyright from './Copyright/Copyright';
 import './FooterBottom.css';
 
 const FooterBottom: React.FC = () => {
