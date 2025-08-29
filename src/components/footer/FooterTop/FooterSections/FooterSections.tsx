@@ -8,9 +8,9 @@ import SiteLinks from '../SiteLinks/SiteLinks';
 import ProjectLinks from '../ProjectLinks/ProjectLinks';
 import VolunteerLinks from '../VolunteerLinks/VolunteerLinks';
 import FooterSection from '../FooterSection/FooterSection';
-import './FooterHeaders.css';
+import './FooterSections.css';
 
-const FooterHeaders: React.FC = () => {
+const FooterSections: React.FC = () => {
   return (
     <div className="footer-headers">
       <FooterSection header={<ContactLink />}>
@@ -32,4 +32,4 @@ const FooterHeaders: React.FC = () => {
   );
 };
 
-export default FooterHeaders;
+export default FooterSections;

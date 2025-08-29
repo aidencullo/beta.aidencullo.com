@@ -1,10 +1,10 @@
 import React from 'react';
-import FooterHeaders from './FooterHeaders/FooterHeaders';
+import FooterSections from './FooterSections/FooterSections';
 import './FooterTop.css';
 
 const FooterTop: React.FC = () => {
   return (
-    <FooterHeaders />
+    <FooterSections />
   );
 };
 
