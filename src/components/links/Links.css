@@ -6,6 +6,10 @@
   justify-content: center;
 }
 
+.link-icon:hover {
+  transform: scale(1.1);
+}
+
 .volunteer-link,
 .contact-link,
 .projects-link,
