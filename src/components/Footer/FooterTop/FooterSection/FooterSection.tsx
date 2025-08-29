@@ -11,16 +11,18 @@ const FooterSection: React.FC<FooterSectionProps> = ({ header, children }) => {
   const { language } = useLanguageCustom()
 
   const getTranslatedHeader = (header: string) => {
-    const translations: { [key: string]: { english: string; spanish: string } } = {
-      "Contact": { english: "CONTACT", spanish: "CONTACTO" },
-      "Site": { english: "SITE", spanish: "SITIO" },
-      "Projects": { english: "PROJECTS", spanish: "PROYECTOS" },
-      "Volunteer": { english: "VOLUNTEER", spanish: "VOLUNTARIADO" }
+    const translations: { [key: string]: { english: string; spanish: string; french: string } } = {
+      "Contact": { english: "CONTACT", spanish: "CONTACTO", french: "CONTACT" },
+      "Site": { english: "SITE", spanish: "SITIO", french: "SITE" },
+      "Projects": { english: "PROJECTS", spanish: "PROYECTOS", french: "PROJETS" },
+      "Volunteer": { english: "VOLUNTEER", spanish: "VOLUNTARIADO", french: "BÉNÉVOLAT" }
     }
 
     const translation = translations[header]
     if (translation) {
-      return language === "english" ? translation.english : translation.spanish
+      if (language === "english") return translation.english
+      if (language === "español") return translation.spanish
+      return translation.french
     }
     
     return header.toUpperCase()

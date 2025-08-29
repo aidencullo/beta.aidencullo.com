@@ -5,8 +5,21 @@ import './HeaderLeft.css'
 
 const HeaderLeft: React.FC = () => {
   const { language } = useLanguageCustom()
-  const homeText = language === "english" ? "home" : "inicio"
-  const aboutText = language === "english" ? "about" : "acerca de"
+  
+  const getHomeText = () => {
+    if (language === "english") return "home"
+    if (language === "español") return "inicio"
+    return "accueil"
+  }
+  
+  const getAboutText = () => {
+    if (language === "english") return "about"
+    if (language === "español") return "acerca de"
+    return "à propos"
+  }
+
+  const homeText = getHomeText()
+  const aboutText = getAboutText()
 
   return (
     <div className="header-left">
