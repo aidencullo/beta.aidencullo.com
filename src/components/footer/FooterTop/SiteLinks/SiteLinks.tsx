@@ -1,8 +1,8 @@
 import React from 'react';
-import GitHubPagesTextLink from '../../../links/social/GitHubPagesTextLink';
-import NamecheapTextLink from '../../../links/social/NamecheapTextLink';
-import ReactTextLink from '../../../links/social/ReactTextLink';
-import ViteTextLink from '../../../links/social/ViteTextLink';
+import GitHubPagesTextLink from '@links/social/githubpages/GitHubPagesTextLink/GitHubPagesTextLink';
+import NamecheapTextLink from '@links/social/namecheap/NamecheapTextLink/NamecheapTextLink';
+import ReactTextLink from '@links/social/react/ReactTextLink/ReactTextLink';
+import ViteTextLink from '@links/social/vite/ViteTextLink/ViteTextLink';
 
 const SiteLinks: React.FC = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import InternalLink from '../../../links/InternalLink/InternalLink'
+import InternalLink from '@links/InternalLink/InternalLink'
 import './HeaderLeft.css'
 
 const HeaderLeft: React.FC = () => {

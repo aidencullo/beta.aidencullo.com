@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from '../Link/Link'
+import Link from '@links/Link/Link'
 
 interface InternalLinkProps {
   href: string
