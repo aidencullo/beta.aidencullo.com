@@ -12,6 +12,8 @@ export function useLanguage() {
     const savedLanguage = localStorage.getItem('language')
     if (savedLanguage) {
       setLanguage(savedLanguage as Language)
+    } else {
+      setLanguage('english')
     }
   }, [])
 
