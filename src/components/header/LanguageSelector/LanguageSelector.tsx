@@ -10,9 +10,9 @@ const LanguageSelector: React.FC = () => {
   }
 
   return (
-    <button onClick={changeLanguage} className="header-me-link theme-button" style={{ background: 'none', border: 'none', cursor: 'pointer' }}>
+    <div onClick={changeLanguage} className="header-me-link theme-button" style={{ background: 'none', border: 'none', cursor: 'pointer' }}>
       {language === "en" ? "es" : "en"}
-    </button>
+    </div>
   )
 }
 
