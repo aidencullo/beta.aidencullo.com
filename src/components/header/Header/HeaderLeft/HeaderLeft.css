@@ -11,7 +11,5 @@
 .header-home-link,
 .header-about-link {
   font-size: 1.1rem;
-
-  transition: opacity 0.2s ease;
   margin-left: 20px;
 }

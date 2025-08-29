@@ -3,7 +3,6 @@
   border: none;
   cursor: pointer;
   color: var(--text-primary);
-  transition: color 0.2s ease;
   font-size: 1.1rem;
   margin-left: 20px;
 }
