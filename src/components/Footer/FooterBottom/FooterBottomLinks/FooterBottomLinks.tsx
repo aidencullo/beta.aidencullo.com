@@ -7,24 +7,22 @@ import ResumeTextLink from '@links/social/resume/ResumeTextLink/ResumeTextLink';
 import FooterBottomLink from '../FooterBottomLink/FooterBottomLink';
 
 const FooterBottomLinks: React.FC = () => {
+  const footerBottomLinks = [
+    GitHubTextLink,
+    StackOverflowTextLink,
+    LinkedInTextLink,
+    EmailTextLink,
+    ResumeTextLink
+  ];
+
   return (
-    <p> 
-      <FooterBottomLink>
-        <GitHubTextLink />
+    <>
+    {footerBottomLinks.map((FooterBottomLinkComponent, index) => (
+      <FooterBottomLink key={index}>  
+        <FooterBottomLinkComponent />
       </FooterBottomLink>
-      <FooterBottomLink>
-        <StackOverflowTextLink />
-      </FooterBottomLink>
-      <FooterBottomLink>
-        <LinkedInTextLink />
-      </FooterBottomLink>
-      <FooterBottomLink>
-        <EmailTextLink />
-      </FooterBottomLink>
-      <FooterBottomLink>
-        <ResumeTextLink />
-      </FooterBottomLink>
-    </p>
+    ))}
+    </>
   );
 };
 

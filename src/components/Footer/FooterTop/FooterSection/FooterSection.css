@@ -1,7 +1,3 @@
-.footer-section {
-  display: block;
-}
-
 .footer-section h3 {
   margin: 0 0 15px 0;
 }
@@ -14,7 +10,4 @@
 
 .footer-section ul li {
   margin-bottom: 8px;
-}
-
-.footer-section ul li a {
 }
