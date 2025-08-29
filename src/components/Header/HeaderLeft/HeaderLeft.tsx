@@ -1,10 +1,10 @@
 import React from 'react'
 import InternalLink from '@links/InternalLink/InternalLink'
-import { useLanguageCustom } from '@hooks/useLanguage'
+import { useLanguage } from '@hooks/useLanguage'
 import './HeaderLeft.css'
 
 const HeaderLeft: React.FC = () => {
-  const { language } = useLanguageCustom()
+  const { language } = useLanguage()
   
   const getHomeText = () => {
     if (language === "english") return "home"

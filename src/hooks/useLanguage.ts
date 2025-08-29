@@ -1,11 +1,29 @@
-import { useLanguage } from '../contexts/LanguageContext'
+import { LanguageContext } from '../contexts/LanguageContext'
+import { useContext, useEffect } from 'react'
 
-export function useLanguageCustom() {
-  const { language, setLanguage } = useLanguage()
+type Language = "english" | "español" | "français"
 
-  const setLanguageCustom = (language: "english" | "español" | "français") => {
+export function useLanguage() {
+  const context = useContext(LanguageContext)
+  if (!context) throw new Error("useLanguage must be used within LanguageProvider")
+  const { language, setLanguage } = context
+
+  useEffect(() => {
+    const language = localStorage.getItem('language')
+    if (language) {
+      setLanguage(language as Language)
+    }
+  }, [])
+
+  useEffect(() => {
+    if (language) {
+      localStorage.setItem('language', language)
+    }
+  }, [language])
+  
+  const setLanguageCustom = (language: Language) => {
     setLanguage(language)
   }
-
+  
   return { language, setLanguageCustom }
 }

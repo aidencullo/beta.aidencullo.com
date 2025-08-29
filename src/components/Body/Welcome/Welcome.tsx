@@ -1,14 +1,14 @@
 import React from 'react'
 import { useScrollAnimation } from '@hooks/useScrollAnimation'
 import './Welcome.css'
-import { useLanguageCustom } from '@hooks/useLanguage'
+import { useLanguage } from '@hooks/useLanguage'
 
 const Welcome: React.FC = () => {
   const welcomeRef = useScrollAnimation()
   const welcomeText = "Welcome"
   const spanishWelcomeText = "Bienvenido"
   const frenchWelcomeText = "Bienvenue"
-  const { language } = useLanguageCustom()
+  const { language } = useLanguage()
 
   const getWelcomeText = () => {
     if (language === "english") return welcomeText

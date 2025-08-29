@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-import { useLanguageCustom } from '@hooks/useLanguage';
+import { useLanguage } from '@hooks/useLanguage';
 import './FooterSection.css';
 
 interface FooterSectionProps {
@@ -8,7 +8,7 @@ interface FooterSectionProps {
 }
 
 const FooterSection: React.FC<FooterSectionProps> = ({ header, children }) => {
-  const { language } = useLanguageCustom()
+  const { language } = useLanguage()
 
   const getTranslatedHeader = (header: string) => {
     const translations: { [key: string]: { english: string; spanish: string; french: string } } = {
