@@ -1,11 +1,11 @@
 import React from 'react'
-import { useScrollAnimation } from '../../../hooks/useScrollAnimation'
-import GitHubIconLink from '../../links/social/GitHubIconLink'
-import StackOverflowIconLink from '../../links/social/StackOverflowIconLink'
-import LinkedInIconLink from '../../links/social/LinkedInIconLink'
-import EmailIconLink from '../../links/social/EmailIconLink'
-import ResumeIconLink from '../../links/social/ResumeIconLink'
-import BlogIconLink from '../../links/social/BlogIconLink'
+import { useScrollAnimation } from '@hooks/useScrollAnimation'
+import GitHubIconLink from '@links/social/github/GitHubIconLink/GitHubIconLink'
+import StackOverflowIconLink from '@links/social/stackoverflow/StackOverflowIconLink/StackOverflowIconLink'
+import LinkedInIconLink from '@links/social/linkedin/LinkedInIconLink/LinkedInIconLink'
+import EmailIconLink from '@links/social/email/EmailIconLink/EmailIconLink'
+import ResumeIconLink from '@links/social/resume/ResumeIconLink/ResumeIconLink'
+import BlogIconLink from '@links/social/blog/BlogIconLink/BlogIconLink'
 import './Bio.css'
 
 const Bio: React.FC = () => {
