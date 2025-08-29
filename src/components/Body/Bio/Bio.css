@@ -52,6 +52,7 @@
   display: inline-block;
 }
 
+.bio-links a:hover {
   scale: 1.1;
   opacity: 1;
 }
