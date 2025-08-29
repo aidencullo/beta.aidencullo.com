@@ -1,6 +1,6 @@
 import React from 'react'
 import InternalLink from '@links/InternalLink/InternalLink'
-import { useLanguageCustom } from '@hooks/useLanguage'
+import { useLanguageCustom } from '@contexts/LanguageContext'
 import './HeaderLeft.css'
 
 const HeaderLeft: React.FC = () => {

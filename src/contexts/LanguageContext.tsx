@@ -18,8 +18,8 @@ export const LanguageProvider: React.FC<{children: React.ReactNode}> = ({ childr
   );
 };
 
-export const useLanguage = () => {
+export const useLanguageCustom = () => {
   const context = useContext(LanguageContext);
-  if (!context) throw new Error('useLanguage must be used within LanguageProvider');
+  if (!context) throw new Error('useLanguageCustom must be used within LanguageProvider');
   return context;
 };
