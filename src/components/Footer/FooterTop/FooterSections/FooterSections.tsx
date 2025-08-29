@@ -1,8 +1,4 @@
 import React from 'react';
-import ContactLink from '@links/footersectionheaders/ContactLink/ContactLink';
-import SiteLink from '@links/footersectionheaders/SiteLink/SiteLink';
-import ProjectsLink from '@links/footersectionheaders/ProjectsLink/ProjectsLink';
-import VolunteerLink from '@links/footersectionheaders/VolunteerLink/VolunteerLink';
 import ContactLinks from '../ContactLinks/ContactLinks';
 import SiteLinks from '../SiteLinks/SiteLinks';
 import ProjectLinks from '../ProjectLinks/ProjectLinks';
@@ -11,23 +7,20 @@ import FooterSection from '../FooterSection/FooterSection';
 import './FooterSections.css';
 
 const FooterSections: React.FC = () => {
+  const sections = [
+    { header: "Contact", component: ContactLinks },
+    { header: "Site", component: SiteLinks },
+    { header: "Projects", component: ProjectLinks },
+    { header: "Volunteer", component: VolunteerLinks }
+  ];
+
   return (
     <div className="footer-headers">
-      <FooterSection header={<ContactLink />}>
-        <ContactLinks />
-      </FooterSection>
-      
-      <FooterSection header={<SiteLink />}>
-        <SiteLinks />
-      </FooterSection>
-      
-      <FooterSection header={<ProjectsLink />}>
-        <ProjectLinks />
-      </FooterSection>   
-      
-      <FooterSection header={<VolunteerLink />}>
-        <VolunteerLinks />
-      </FooterSection>
+      {sections.map((section, index) => (
+        <FooterSection key={index} header={section.header}>
+          <section.component />
+        </FooterSection>
+      ))}
     </div>
   );
 };
