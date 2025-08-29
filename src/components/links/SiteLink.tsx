@@ -4,7 +4,7 @@ import InternalLink from './InternalLink/InternalLink'
 const SiteLink: React.FC = () => {
   const title = "Site"
   return (
-    <InternalLink href="#" title={title} className="header-me-link">
+    <InternalLink href="#" title={title} className="site-link">
       {title}
     </InternalLink>
   )

@@ -4,7 +4,7 @@ import InternalLink from './InternalLink/InternalLink'
 const ContactLink: React.FC = () => {
   const title = "Contact"
   return (
-    <InternalLink href="#" title={title} className="header-me-link">
+    <InternalLink href="#" title={title} className="contact-link">
       {title}
     </InternalLink>
   )

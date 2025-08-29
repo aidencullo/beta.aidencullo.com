@@ -13,7 +13,7 @@ const Link: React.FC<LinkProps> = ({
   title, 
   children, 
   isExternal = false,
-  className = "header-me-link"
+  className
 }) => {
   const target = isExternal ? "_blank" : undefined
   const rel = isExternal ? "noopener noreferrer" : undefined
@@ -24,7 +24,7 @@ const Link: React.FC<LinkProps> = ({
       title={title}
       target={target}
       rel={rel}
-      className={className}
+      className={`link ${className || ''}`}
     >
       {children}
     </a>

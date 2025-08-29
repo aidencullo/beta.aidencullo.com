@@ -22,9 +22,21 @@
   width: 100%;
 }
 
-.header-me-link {
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header-home-link,
+.header-about-link {
   font-size: 1.1rem;
   text-decoration: none;
   transition: opacity 0.2s ease;
   margin-left: 20px;
+  color: var(--text-primary);
+}
+
+.header-home-link:hover,
+.header-about-link:hover {
+  opacity: 0.8;
 }

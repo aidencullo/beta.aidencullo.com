@@ -11,7 +11,7 @@ const ThemeButton: React.FC = () => {
   }
 
   return (
-    <button onClick={changeTheme} className="header-me-link theme-button" style={{ background: 'none', border: 'none', cursor: 'pointer' }}>
+    <button onClick={changeTheme} className="theme-button">
       {theme === "light" ? <FaMoon /> : <FaSun />}
     </button>
   )
