@@ -20,9 +20,7 @@ button, a {
   color: inherit; 
 }
 
-a:hover {
-  opacity: 0.8;
-}
+
 
 @keyframes fadeInUp {
   from {

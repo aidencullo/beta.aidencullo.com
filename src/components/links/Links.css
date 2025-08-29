@@ -6,10 +6,6 @@
   justify-content: center;
 }
 
-.link-icon:hover {
-  transform: scale(1.1);
-}
-
 .volunteer-link,
 .contact-link,
 .projects-link,
@@ -17,11 +13,4 @@
   color: var(--text-primary);
   text-decoration: none;
   transition: color 0.2s ease;
-}
-
-.volunteer-link:hover,
-.contact-link:hover,
-.projects-link:hover,
-.site-link:hover {
-  color: var(--text-secondary);
 }

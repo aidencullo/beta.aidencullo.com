@@ -36,7 +36,4 @@
   color: var(--text-primary);
 }
 
-.header-home-link:hover,
-.header-about-link:hover {
-  opacity: 0.8;
-}
+
