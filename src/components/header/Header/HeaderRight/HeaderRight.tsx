@@ -1,6 +1,6 @@
 import React from 'react'
-import ThemeButton from '../ThemeButton/ThemeButton'
-import LanguageSelector from '../LanguageSelector/LanguageSelector'
+import ThemeButton from './ThemeButton/ThemeButton'
+import LanguageSelector from './LanguageSelector/LanguageSelector'
 import './HeaderRight.css'
 
 const HeaderRight: React.FC = () => {
