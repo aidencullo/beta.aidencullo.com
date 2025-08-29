@@ -6,13 +6,13 @@ interface FooterSectionProps {
   children: ReactNode;
 }
 
-const FooterSection: React.FC<FooterSectionProps> = ({ header, children }) => {
+const   FooterSection: React.FC<FooterSectionProps> = ({ header, children }) => {
 
   const headerStylized = header.toUpperCase();
 
   return (
     <div className="footer-section">
-      <p>
+      <p className="footer-section-header">
         {headerStylized}
       </p>
       <ul>

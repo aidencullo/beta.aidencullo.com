@@ -35,6 +35,7 @@
 }
 
 .bio-text {
+  font-size: 1.2rem;
   max-width: 600px;
 }
 
@@ -44,12 +45,13 @@
   gap: 2rem;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-size: 2rem;
 }
 
-.bio-links a:hover {
-  scale: 1.5;
+.link-icon {
+  font-size: 3rem;
+}
+
+.link-icon:hover {
+  transform: scale(1.1);
   opacity: 1;
 }

@@ -15,7 +15,7 @@ const FooterSections: React.FC = () => {
   ];
 
   return (
-    <div className="footer-headers">
+    <div className="footer-sections">
       {sections.map((section, index) => (
         <FooterSection key={index} header={section.header}>
           <section.component />
