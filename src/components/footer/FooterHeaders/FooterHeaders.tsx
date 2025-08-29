@@ -1,13 +1,14 @@
 import React from 'react';
-import ContactLink from '../links/header/ContactLink';
-import SiteLink from '../links/header/SiteLink';
-import ProjectsLink from '../links/header/ProjectsLink';
-import VolunteerLink from '../links/header/VolunteerLink';
-import ContactLinks from './ContactLinks';
-import SiteLinks from './SiteLinks';
-import ProjectLinks from './ProjectLinks';
-import VolunteerLinks from './VolunteerLinks';
-import FooterSection from './FooterSection';
+import ContactLink from '../../links/header/ContactLink';
+import SiteLink from '../../links/header/SiteLink';
+import ProjectsLink from '../../links/header/ProjectsLink';
+import VolunteerLink from '../../links/header/VolunteerLink';
+import ContactLinks from '../ContactLinks/ContactLinks';
+import SiteLinks from '../SiteLinks/SiteLinks';
+import ProjectLinks from '../ProjectLinks/ProjectLinks';
+import VolunteerLinks from '../VolunteerLinks/VolunteerLinks';
+import FooterSection from '../FooterSection/FooterSection';
+import './FooterHeaders.css';
 
 const FooterHeaders: React.FC = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
-import FooterHeaders from "./FooterHeaders";
-import FooterBottom from "./FooterBottom";
+import FooterHeaders from "../FooterHeaders/FooterHeaders";
+import FooterBottom from "../FooterBottom/FooterBottom";
 
 const Footer = () => {
 

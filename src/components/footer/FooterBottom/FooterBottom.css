@@ -1,0 +1,21 @@
+.footer-bottom {
+  border-top: 1px solid #3b4045;
+  padding-top: 15px;
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+}
+
+.footer-bottom-right {
+  margin-left: auto;
+}
+
+.footer-bottom p {
+  margin: 5px 0;
+  font-size: 11px;
+}
+
+.footer-bottom a {
+  text-decoration: none;
+  transition: color 0.2s ease;
+}

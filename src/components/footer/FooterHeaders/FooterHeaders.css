@@ -1,0 +1,7 @@
+.footer-headers {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px 0;
+  gap: 15%;
+  width: 100%;
+}
