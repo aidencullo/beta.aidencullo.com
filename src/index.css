@@ -17,12 +17,12 @@ html {
 }
 
 button, a { 
-  color: inherit; 
+  color: inherit;
+  cursor: pointer;
 }
 
 a {
   text-decoration: none;
-  transition: opacity 0.2s ease, color 0.2s ease;
 }
 
 a:hover {
