@@ -12,7 +12,7 @@ const LanguageSelector: React.FC = () => {
   }
 
   return (
-    <div onClick={changeLanguage} >
+    <div onClick={changeLanguage} className="language-selector">
       {language === englishCode ? spanishCode : englishCode}
     </div>
   )
