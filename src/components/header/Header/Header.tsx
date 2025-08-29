@@ -6,10 +6,8 @@ import './Header.css'
 const Header: React.FC = () => {
   return (
     <header className="header">
-      <div className="header-content">
         <HeaderLeft />
         <HeaderRight />
-      </div>
     </header>
   )
 }
