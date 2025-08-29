@@ -3,9 +3,9 @@ import GitHubPagesTextLink from '@links/social/githubpages/GitHubPagesTextLink/G
 import NamecheapTextLink from '@links/social/namecheap/NamecheapTextLink/NamecheapTextLink';
 import ReactTextLink from '@links/social/react/ReactTextLink/ReactTextLink';
 import ViteTextLink from '@links/social/vite/ViteTextLink/ViteTextLink';
-import './SiteLinks.css';
+import './SiteSection.css';
 
-const SiteLinks: React.FC = () => {
+const SiteSection: React.FC = () => {
   const sites = [
     GitHubPagesTextLink,
     NamecheapTextLink,
@@ -24,4 +24,4 @@ const SiteLinks: React.FC = () => {
   );
 };
 
-export default SiteLinks;
+export default SiteSection;

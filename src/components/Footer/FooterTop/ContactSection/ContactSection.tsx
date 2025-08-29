@@ -2,8 +2,9 @@ import React from 'react';
 import EmailTextLink from '@links/social/email/EmailTextLink/EmailTextLink';
 import LinkedInTextLink from '@links/social/linkedin/LinkedInTextLink/LinkedInTextLink';
 import XTextLink from '@links/social/x/XTextLink/XTextLink';
+import './ContactSection.css';
 
-const ContactLinks: React.FC = () => {
+const ContactSection: React.FC = () => {
   return (
     <>
       <li>
@@ -19,4 +20,4 @@ const ContactLinks: React.FC = () => {
   );
 };
 
-export default ContactLinks;
+export default ContactSection;

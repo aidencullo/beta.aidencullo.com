@@ -3,9 +3,9 @@ import PipenvTextLink from '@links/social/pipenv/PipenvTextLink/PipenvTextLink';
 import TrueorFalseTextLink from '@links/projects/TrueorFalseTextLink/TrueorFalseTextLink';
 import NoMailTextLink from '@links/projects/NoMailTextLink/NoMailTextLink';
 import SeatFinderTextLink from '@links/projects/SeatFinderTextLink/SeatFinderTextLink';
-import './ProjectLinks.css';
+import './ProjectsSection.css';
 
-const ProjectLinks: React.FC = () => {
+const ProjectsSection: React.FC = () => {
   const projects = [
     PipenvTextLink,
     TrueorFalseTextLink,
@@ -24,4 +24,4 @@ const ProjectLinks: React.FC = () => {
   );
 };
 
-export default ProjectLinks;
+export default ProjectsSection;

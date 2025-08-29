@@ -1,17 +1,17 @@
 import React from 'react';
-import ContactLinks from '../ContactLinks/ContactLinks';
-import SiteLinks from '../SiteLinks/SiteLinks';
-import ProjectLinks from '../ProjectLinks/ProjectLinks';
-import VolunteerLinks from '../VolunteerLinks/VolunteerLinks';
+import ContactSection from '../ContactSection/ContactSection';
+import SiteSection from '../SiteSection/SiteSection';
+import ProjectsSection from '../ProjectsSection/ProjectsSection';
+import VolunteerSection from '../VolunteerSection/VolunteerSection';
 import FooterSection from '../FooterSection/FooterSection';
 import './FooterSections.css';
 
 const FooterSections: React.FC = () => {
   const sections = [
-    { header: "Contact", component: ContactLinks },
-    { header: "Site", component: SiteLinks },
-    { header: "Projects", component: ProjectLinks },
-    { header: "Volunteer", component: VolunteerLinks }
+    { header: "Contact", component: ContactSection },
+    { header: "Site", component: SiteSection },
+    { header: "Projects", component: ProjectsSection },
+    { header: "Volunteer", component: VolunteerSection }
   ];
 
   return (

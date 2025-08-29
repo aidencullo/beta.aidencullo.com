@@ -3,9 +3,9 @@ import NYCMeshTextLink from '@links/volunteer/NYCMeshTextLink/NYCMeshTextLink';
 import BushwickAyudaMutuaTextLink from '@links/volunteer/BushwickAyudaMutuaTextLink/BushwickAyudaMutuaTextLink';
 import NYCDSATextLink from '@links/volunteer/NYCDSATextLink/NYCDSATextLink';
 import DemocracyNowTextLink from '@links/volunteer/DemocracyNowTextLink/DemocracyNowTextLink';
-import './VolunteerLinks.css';
+import './VolunteerSection.css';
 
-const VolunteerLinks: React.FC = () => {
+const VolunteerSection: React.FC = () => {
   const volunteerLinks = [
     NYCMeshTextLink,
     BushwickAyudaMutuaTextLink,
@@ -24,4 +24,4 @@ const VolunteerLinks: React.FC = () => {
   );
 };
 
-export default VolunteerLinks;
+export default VolunteerSection;
