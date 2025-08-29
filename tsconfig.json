@@ -8,7 +8,18 @@
     "allowImportingTsExtensions": true,
     "strict": true,
     "skipLibCheck": true,
-    "noEmit": true
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["./src/components/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@contexts/*": ["./src/contexts/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@links/*": ["./src/components/links/*"],
+      "@footer/*": ["./src/components/footer/*"],
+      "@header/*": ["./src/components/header/*"],
+      "@body/*": ["./src/components/body/*"]
+    }
   },
   "include": ["src", "vite.config.ts"]
 }
