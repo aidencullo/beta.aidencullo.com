@@ -1,5 +1,5 @@
 import React from 'react'
-import { useLanguageCustom } from '@contexts/LanguageContext'
+import { useLanguageCustom } from '@hooks/useLanguage'
 import './BioText.css'
 
 const BioText: React.FC = () => {

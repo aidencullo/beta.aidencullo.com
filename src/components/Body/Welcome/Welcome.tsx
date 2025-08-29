@@ -1,7 +1,7 @@
 import React from 'react'
 import { useScrollAnimation } from '@hooks/useScrollAnimation'
 import './Welcome.css'
-import { useLanguageCustom } from '@contexts/LanguageContext'
+import { useLanguageCustom } from '@hooks/useLanguage'
 
 const Welcome: React.FC = () => {
   const welcomeRef = useScrollAnimation()

@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-import { useLanguageCustom } from '@contexts/LanguageContext';
+import { useLanguageCustom } from '@hooks/useLanguage';
 import './FooterSection.css';
 
 interface FooterSectionProps {

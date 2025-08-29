@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLanguageCustom } from '@contexts/LanguageContext';
+import { useLanguageCustom } from '@hooks/useLanguage';
 import './Copyright.css';
 
 const Copyright: React.FC = () => {
