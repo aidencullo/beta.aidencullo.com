@@ -16,9 +16,9 @@
       "@contexts/*": ["./src/contexts/*"],
       "@hooks/*": ["./src/hooks/*"],
       "@links/*": ["./src/components/links/*"],
-      "@footer/*": ["./src/components/footer/*"],
-      "@header/*": ["./src/components/header/*"],
-      "@body/*": ["./src/components/body/*"]
+      "@footer/*": ["./src/components/Footer/*"],
+      "@header/*": ["./src/components/Header/*"],
+      "@body/*": ["./src/components/Body/*"]
     }
   },
   "include": ["src", "vite.config.ts"]

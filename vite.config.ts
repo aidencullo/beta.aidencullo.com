@@ -11,9 +11,9 @@ export default defineConfig({
       '@contexts': path.resolve(__dirname, './src/contexts'),
       '@hooks': path.resolve(__dirname, './src/hooks'),
       '@links': path.resolve(__dirname, './src/components/links'),
-      '@footer': path.resolve(__dirname, './src/components/footer'),
-      '@header': path.resolve(__dirname, './src/components/header'),
-      '@body': path.resolve(__dirname, './src/components/body')
+      '@footer': path.resolve(__dirname, './src/components/Footer'),
+      '@header': path.resolve(__dirname, './src/components/Header'),
+      '@body': path.resolve(__dirname, './src/components/Body')
     }
   }
 })
