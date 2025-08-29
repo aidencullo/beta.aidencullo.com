@@ -8,7 +8,7 @@ const EmailTextLink: React.FC = () => {
   
   return (
     <Link href={url} title={title}>
-      Email
+      {title}
     </Link>
   )
 }

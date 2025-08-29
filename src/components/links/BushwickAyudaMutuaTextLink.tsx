@@ -7,7 +7,7 @@ const BushwickAyudaMutuaTextLink: React.FC = () => {
   
   return (
     <Link href={url} title={title} isExternal={true}>
-      Bushwick Ayuda Mutua
+      {title}
     </Link>
   )
 }

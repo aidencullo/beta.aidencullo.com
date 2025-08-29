@@ -7,7 +7,7 @@ const ResumeTextLink: React.FC = () => {
   
   return (
     <Link href={url} title={title} isExternal={true}>
-      Resume
+      {title}
     </Link>
   )
 }

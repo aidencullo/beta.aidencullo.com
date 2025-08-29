@@ -7,7 +7,7 @@ const PipenvTextLink: React.FC = () => {
   
   return (
     <Link href={url} title={title} isExternal={true}>
-      Pipenv
+      {title}
     </Link>
   )
 }

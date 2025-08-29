@@ -7,7 +7,7 @@ const NYCDSATextLink: React.FC = () => {
   
   return (
     <Link href={url} title={title} isExternal={true}>
-      NYC DSA
+      {title}
     </Link>
   )
 }

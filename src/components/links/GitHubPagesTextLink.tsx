@@ -7,7 +7,7 @@ const GitHubPagesTextLink: React.FC = () => {
   
   return (
     <Link href={url} title={title} isExternal={true}>
-      GitHub Pages
+      {title}
     </Link>
   )
 }

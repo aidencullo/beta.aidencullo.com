@@ -7,7 +7,7 @@ const DemocracyNowTextLink: React.FC = () => {
   
   return (
     <Link href={url} title={title} isExternal={true}>
-      Democracy Now!
+      {title}
     </Link>
   )
 }

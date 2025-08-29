@@ -7,7 +7,7 @@ const StackOverflowTextLink: React.FC = () => {
   
   return (
     <Link href={url} title={title} isExternal={true}>
-      Stack Overflow
+      {title}
     </Link>
   )
 }

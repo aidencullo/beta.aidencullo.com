@@ -7,7 +7,7 @@ const SeatFinderTextLink: React.FC = () => {
   
   return (
     <Link href={url} title={title} isExternal={true}>
-      SeatFinder
+      {title}
     </Link>
   )
 }

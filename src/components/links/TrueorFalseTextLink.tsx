@@ -7,7 +7,7 @@ const TrueorFalseTextLink: React.FC = () => {
   
   return (
     <Link href={url} title={title} isExternal={true}>
-      TrueorFalse
+      {title}
     </Link>
   )
 }

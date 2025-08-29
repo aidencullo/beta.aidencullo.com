@@ -7,7 +7,7 @@ const XTextLink: React.FC = () => {
   
   return (
     <Link href={url} title={title} isExternal={true}>
-      X
+      {title}
     </Link>
   )
 }

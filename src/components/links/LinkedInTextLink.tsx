@@ -7,7 +7,7 @@ const LinkedInTextLink: React.FC = () => {
   
   return (
     <Link href={url} title={title} isExternal={true}>
-      LinkedIn
+      {title}
     </Link>
   )
 }

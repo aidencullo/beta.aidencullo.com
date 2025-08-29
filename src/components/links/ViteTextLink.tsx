@@ -7,7 +7,7 @@ const ViteTextLink: React.FC = () => {
   
   return (
     <Link href={url} title={title} isExternal={true}>
-      Vite
+      {title}
     </Link>
   )
 }
