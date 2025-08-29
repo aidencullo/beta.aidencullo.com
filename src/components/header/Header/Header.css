@@ -10,4 +10,5 @@
   background-color: var(--primary);
   color: var(--text-primary);
   box-sizing: border-box;
+  z-index: 1000;
 }
