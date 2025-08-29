@@ -5,20 +5,20 @@ import NYCDSATextLink from '../../../links/volunteer/NYCDSATextLink';
 import DemocracyNowTextLink from '../../../links/volunteer/DemocracyNowTextLink';
 
 const VolunteerLinks: React.FC = () => {
+  const volunteerLinks = [
+    NYCMeshTextLink,
+    BushwickAyudaMutuaTextLink,
+    NYCDSATextLink,
+    DemocracyNowTextLink
+  ];
+
   return (
     <>
-      <li>
-        <NYCMeshTextLink />
-      </li>
-      <li>
-        <BushwickAyudaMutuaTextLink />
-      </li>
-      <li>
-        <NYCDSATextLink />
-      </li>
-      <li>
-        <DemocracyNowTextLink />
-      </li>
+      {volunteerLinks.map((LinkComponent, index) => (
+        <li key={index}>
+          <LinkComponent />
+        </li>
+      ))}
     </>
   );
 };
