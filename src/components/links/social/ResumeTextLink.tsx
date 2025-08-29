@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from './Link/Link'
+import Link from '../Link/Link'
 
 const ResumeTextLink: React.FC = () => {
   const url = "/resume.pdf"

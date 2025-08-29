@@ -1,5 +1,5 @@
 import React from 'react'
-import ExternalLink from './ExternalLink/ExternalLink'
+import ExternalLink from '../ExternalLink/ExternalLink'
 
 interface BlogLinkProps {
   children: React.ReactNode

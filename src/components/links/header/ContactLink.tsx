@@ -1,5 +1,5 @@
 import React from 'react'
-import InternalLink from './InternalLink/InternalLink'
+import InternalLink from '../InternalLink/InternalLink'
 
 const ContactLink: React.FC = () => {
   const title = "Contact"

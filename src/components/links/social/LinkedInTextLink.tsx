@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from './Link/Link'
+import Link from '../Link/Link'
 
 const LinkedInTextLink: React.FC = () => {
   const url = "https://www.linkedin.com/in/aidencullo/"

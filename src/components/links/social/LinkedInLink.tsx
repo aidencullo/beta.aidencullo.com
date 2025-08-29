@@ -1,5 +1,5 @@
 import React from 'react'
-import ExternalLink from './ExternalLink/ExternalLink'
+import ExternalLink from '../ExternalLink/ExternalLink'
 
 interface LinkedInLinkProps {
   children: React.ReactNode
