@@ -14,6 +14,12 @@ export const LanguageProvider: React.FC<{children: React.ReactNode}> = ({ childr
     return savedLanguage as Language || 'english'
   })
 
+  useEffect(() => {
+    if (language) {
+      localStorage.setItem('language', language)
+    }
+  }, [language])
+
   return (
     <LanguageContext.Provider value={{ language, setLanguage }}>
       {children}
