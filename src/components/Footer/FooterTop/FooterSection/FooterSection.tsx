@@ -2,16 +2,19 @@ import React, { ReactNode } from 'react';
 import './FooterSection.css';
 
 interface FooterSectionProps {
-  header: ReactNode;
+  header: string;
   children: ReactNode;
 }
 
 const FooterSection: React.FC<FooterSectionProps> = ({ header, children }) => {
+
+  const headerStylized = header.toUpperCase();
+
   return (
     <div className="footer-section">
-      <h3>
-        {header}
-      </h3>
+      <p>
+        {headerStylized}
+      </p>
       <ul>
         {children}
       </ul>
