@@ -9,18 +9,19 @@ const LanguageSelector: React.FC = () => {
   const frenchCode = "français"
 
   const changeLanguage = () => {
-    if (language === englishCode) {
-      setLanguageCustom(spanishCode)
-    } else if (language === spanishCode) {
-      setLanguageCustom(frenchCode)
-    } else {
-      setLanguageCustom(englishCode)
-    }
+    const nextLanguage = getNextLanguage()
+    setLanguageCustom(nextLanguage)
+  }
+
+  const getNextLanguage = () => {
+    if (language === englishCode) return spanishCode
+    if (language === spanishCode) return frenchCode
+    return englishCode
   }
 
   return (
     <div onClick={changeLanguage} className="language-selector">
-      {language === englishCode ? spanishCode : language === spanishCode ? frenchCode : englishCode}
+      {getNextLanguage()}
     </div>
   )
 }
