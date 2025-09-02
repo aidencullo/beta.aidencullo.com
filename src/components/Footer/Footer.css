@@ -1,11 +1,11 @@
 .footer {
   padding: 40px 60px;
   font-size: 13px;
-  width: 100%;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   min-height: fit-content;
   color: var(--text-primary);
   background-color: var(--primary);
+  width: 100vw;
 }
