@@ -4,6 +4,15 @@
   align-items: center;
 }
 
+
+@media (max-width: 768px) {
+  .bio-links {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+}
+
 .link-icon {
   font-size: 3rem;
 }
