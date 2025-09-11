@@ -1,7 +1,3 @@
-:root {
-  --accent: #gray;
-}
-
 :root[data-theme="light"] {
   --primary: black;
   --secondary: white;
