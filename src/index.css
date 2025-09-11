@@ -1,5 +1,5 @@
 :root {
-  --accent: #3b4045;
+  --accent: #gray;
 }
 
 :root[data-theme="light"] {
