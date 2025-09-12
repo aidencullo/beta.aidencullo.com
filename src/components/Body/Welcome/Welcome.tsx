@@ -5,9 +5,9 @@ import { useLanguage } from '@hooks/useLanguage'
 
 const Welcome: React.FC = () => {
   const welcomeRef = useScrollAnimation()
-  const welcomeText = "Welcome"
-  const spanishWelcomeText = "Bienvenido"
-  const frenchWelcomeText = "Bienvenue"
+  const welcomeText = "Welcome!"
+  const spanishWelcomeText = "¡Bienvenido!"
+  const frenchWelcomeText = "Bienvenue !"
   const { language } = useLanguage()
 
   const getWelcomeText = () => {

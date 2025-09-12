@@ -2,7 +2,7 @@ import React from 'react'
 import Link from '@links/Link/Link'
 
 const NoMailTextLink: React.FC = () => {
-  const url = "https://github.com/aidencullo/nomail"
+  const url = "https://pypi.org/project/nomail/"
   const title = "NoMail"
   
   return (
