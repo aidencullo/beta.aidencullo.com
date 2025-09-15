@@ -1,15 +1,13 @@
 :root {
   --primary: black;
   --secondary: white;
-  --text-primary: white;
-  --text-secondary: black;
+  --text-primary: var(--secondary);
+  --text-secondary: var(--primary);
 }
 
 :root[data-theme="dark"] {
   --primary: white;
   --secondary: black;
-  --text-primary: black;
-  --text-secondary: white;
 }
 
 html {
