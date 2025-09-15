@@ -13,9 +13,9 @@ const HeaderLeft: React.FC = () => {
   }
   
   const getAboutText = () => {
-    if (language === "english") return "about"
-    if (language === "español") return "acerca de"
-    return "à propos"
+    if (language === "english") return "about me"
+    if (language === "español") return "acerca de mí"
+    return "à propos de moi"
   }
 
   const homeText = getHomeText()
