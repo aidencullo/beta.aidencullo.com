@@ -1,3 +1,7 @@
 .language-selector {
   cursor: pointer;
 }
+
+.language-selector:hover {
+  opacity: 0.8;
+}
