@@ -4,6 +4,7 @@ import StackOverflowTextLink from '@links/social/stackoverflow/StackOverflowText
 import LinkedInTextLink from '@links/social/linkedin/LinkedInTextLink/LinkedInTextLink';
 import EmailTextLink from '@links/social/email/EmailTextLink/EmailTextLink';
 import ResumeTextLink from '@links/social/resume/ResumeTextLink/ResumeTextLink';
+import BlogTextLink from '@links/social/blog/BlogTextLink/BlogTextLink';
 import FooterBottomLink from '../FooterBottomLink/FooterBottomLink';
 
 const FooterBottomLinks: React.FC = () => {
@@ -12,7 +13,8 @@ const FooterBottomLinks: React.FC = () => {
     StackOverflowTextLink,
     LinkedInTextLink,
     EmailTextLink,
-    ResumeTextLink
+    ResumeTextLink,
+    BlogTextLink
   ];
 
   return (
