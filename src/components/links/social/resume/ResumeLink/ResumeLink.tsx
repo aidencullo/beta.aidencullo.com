@@ -11,9 +11,9 @@ const ResumeLink: React.FC<ResumeLinkProps> = ({ children, className }) => {
   const title = "Resume"
   
   return (
-    <ExternalLink href={url} title={title} className={className}>
-      {children}
-    </ExternalLink>
+    <a href={url} download>
+      { children }
+    </a>
   )
 }
 
