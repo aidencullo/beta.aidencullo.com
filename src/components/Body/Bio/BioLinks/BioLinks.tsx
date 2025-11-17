@@ -12,12 +12,12 @@ const BioLinks: React.FC = () => {
   return (
     <div className="bio-links">
       <GitHubIconLink />
-      <GitLabIconLink />
-      <StackOverflowIconLink />
+      {/* <GitLabIconLink />
+      <StackOverflowIconLink /> */}
       <LinkedInIconLink />
       <EmailIconLink />
       <ResumeIconLink />
-      <BlogIconLink />
+      {/* <BlogIconLink /> */}
     </div>
   )
 }
