@@ -14,8 +14,7 @@ const FooterSection: React.FC<FooterSectionProps> = ({ header, children }) => {
     const translations: { [key: string]: { english: string; spanish: string; french: string } } = {
       "Contact": { english: "CONTACT", spanish: "CONTACTO", french: "CONTACT" },
       "Site": { english: "SITE", spanish: "SITIO", french: "SITE" },
-      "Projects": { english: "PROJECTS", spanish: "PROYECTOS", french: "PROJETS" },
-      "Volunteer": { english: "VOLUNTEER", spanish: "VOLUNTARIADO", french: "BÉNÉVOLAT" }
+      "Projects": { english: "PROJECTS", spanish: "PROYECTOS", french: "PROJETS" }
     }
 
     const translation = translations[header]
