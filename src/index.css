@@ -1,5 +1,5 @@
 :root {
-  --primary: black;
+  --primary: #3e2509;
   --secondary: white;
   --text-primary: var(--secondary);
   --text-secondary: var(--primary);
@@ -7,7 +7,7 @@
 
 :root[data-theme="dark"] {
   --primary: white;
-  --secondary: black;
+  --secondary: #3e2509;
 }
 
 html {

@@ -8,5 +8,5 @@
   color: var(--text-primary);
   background-color: var(--primary);
   width: 100vw;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 1);
+  box-shadow: 0 2px 8px rgba(120, 66, 18, 0.35);
 }
