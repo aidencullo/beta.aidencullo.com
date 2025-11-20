@@ -6,6 +6,7 @@ interface LinkProps {
   children: React.ReactNode
   isExternal?: boolean
   className?: string
+  download?: boolean
 }
 
 const Link: React.FC<LinkProps> = ({ 
@@ -13,7 +14,8 @@ const Link: React.FC<LinkProps> = ({
   title, 
   children, 
   isExternal = false,
-  className
+  className,
+  download = false
 }) => {
   const target = isExternal ? "_blank" : undefined
   const rel = isExternal ? "noopener noreferrer" : undefined
@@ -25,6 +27,7 @@ const Link: React.FC<LinkProps> = ({
       target={target}
       rel={rel}
       className={`link ${className || ''}`}
+      download={download}
     >
       {children}
     </a>
