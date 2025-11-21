@@ -1,14 +1,14 @@
 import React from 'react'
-import Link from '@links/Link/Link'
+import ResumeLink from '../ResumeLink/ResumeLink'
 
 const ResumeTextLink: React.FC = () => {
-  const url = "/resume.pdf"
   const title = "Resume"
   
   return (
-    <Link href={url} title={title} isExternal={true} download={true}>
+    <ResumeLink>
       {title}
-    </Link>
+    </ResumeLink>
+
   )
 }
 

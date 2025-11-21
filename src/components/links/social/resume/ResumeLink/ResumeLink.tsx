@@ -1,19 +1,18 @@
 import React from 'react'
-import ExternalLink from '@links/ExternalLink/ExternalLink'
+import Link from '@components/links/Link/Link'
 
 interface ResumeLinkProps {
   children: React.ReactNode
-  className?: string
 }
 
-const ResumeLink: React.FC<ResumeLinkProps> = ({ children, className }) => {
+const ResumeLink: React.FC<ResumeLinkProps> = ({ children }) => {
   const url = "/resume.pdf"
   const title = "Resume"
   
   return (
-    <a href={url} download>
+    <Link href={url} title={title} isExternal={true} download={true}>
       { children }
-    </a>
+    </Link>
   )
 }
 
